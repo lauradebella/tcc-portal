@@ -1,16 +1,16 @@
 zingchart.render({
-    id: 'diferenca_salarial',
+    id: 'preterida_em_promocao',
     data: {
         type: "pie",
         "title":{
-                            "text":"Diferenças salariais entre gêneros",
+                            "text":"Índice de discriminação em promoções",
                             "background-color":"none",
                             "font-size":"20px",
                             "font-color":"#000000"
                         },
         labels : [
           {
-            text : "das mulheres ainda <br>identifica diferenças<br> salariais entre gêneros",
+            text : "das mulheres já <br>se sentiram preteridas<br>em promoções<br> por serem mulheres",
             x : "50%",
             y : "62%",
             anchor : "c",
@@ -19,7 +19,7 @@ zingchart.render({
             alpha : 0.7
           },
           {
-            text: "40",
+            text: "38",
             y : "36%",
             textAlign : "center",
             //borderWidth : 1,
@@ -61,12 +61,12 @@ zingchart.render({
                 fontColor: "white",
                 rules: [{
                     rule: "%i == 0",
-                    text: "%v mulheres identificam diferenças salariais",
+                    text: "%v mulheres nunca foram preteridas",
                     shadow: false,
                     borderRadius: 4
                 }, {
                     rule: "%i == 1",
-                    text: "%v mulheres não identificam diferenças salariais",
+                    text: "%v mulheres já foram preteridas",
                     shadow: false,
                     borderRadius: 4
                 }]
@@ -76,7 +76,7 @@ zingchart.render({
             margin: "dynamic",
         },
         series: [{
-            values: [50],
+            values: [72],
             "gradient-colors" : "white white #7e57c2 white" ,
             "gradient-stops" : "0.2 0.5 0.5",
             fillType : "radial",
@@ -84,7 +84,7 @@ zingchart.render({
             shadow: 0,
             backgroundColor:'#7e57c2'
         }, {
-            values: [75],
+            values: [152],
             backgroundColor: "#7e57c2",
             //"gradient-colors" : "#000000 #7e57c2FFF",
             //"gradient-stops" : "0.9 0.4",
