@@ -1,26 +1,26 @@
 zingchart.render({
-    id: 'empresas_com_politica_genero',
+    id: 'presenciaram_preconceito',
     data: {
         type: "pie",
         "title":{
-                            "text":"Empresas com políticas de igualdade de gênero",
+                            "text":"Índice de pessoas que ja presenciaram <br>discriminação contra mulheres na computação",
                             "background-color":"none",
                             "font-size":"20px",
                             "font-color":"#000000"
                         },
         labels : [
           {
-            text : "das empresas tem <br>preocupação em contratar<br> diversidade de gênero",
+            text : "das pessoas já <br>presenciaram algum tipo de <br>preconceito contra <br>mulheres na computação",
             x : "50%",
-            y : "62%",
+            y : "52%",
             anchor : "c",
-            fontSize : "20px",
+            fontSize : "15px",
             fontColor : "#7e57c2",
             alpha : 0.7
           },
           {
-            text: "19",
-            y : "36%",
+            text: "71",
+            y : "28 %",
             textAlign : "center",
             //borderWidth : 1,
             //borderColor : "#000",
@@ -32,7 +32,7 @@ zingchart.render({
           },
           {
             text: "%",
-            y : "38%",
+            y : "34%",
             textAlign : "center",
             width : "100%",
             offsetX : "40px",
@@ -61,12 +61,12 @@ zingchart.render({
                 fontColor: "white",
                 rules: [{
                     rule: "%i == 0",
-                    text: "%v empresas preocupadas com questões de gênero",
+                    text: "%v pessoas já presenciaram algum tipo de preconceito",
                     shadow: false,
                     borderRadius: 4
                 }, {
                     rule: "%i == 1",
-                    text: "%v empresas sem preocupação com questões de gênero",
+                    text: "%v pessoas nunca presenciaram preconceito",
                     shadow: false,
                     borderRadius: 4
                 }]
@@ -76,7 +76,7 @@ zingchart.render({
             margin: "dynamic",
         },
         series: [{
-            values: [69],
+            values: [290],
             "gradient-colors" : "white white #7e57c2 white" ,
             "gradient-stops" : "0.2 0.5 0.5",
             fillType : "radial",
@@ -84,7 +84,7 @@ zingchart.render({
             shadow: 0,
             backgroundColor:'#7e57c2'
         }, {
-            values: [286],
+            values: [114],
             backgroundColor: "#7e57c2",
             //"gradient-colors" : "#000000 #7e57c2FFF",
             //"gradient-stops" : "0.9 0.4",
