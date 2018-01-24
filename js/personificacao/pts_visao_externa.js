@@ -85,5 +85,5 @@
                 id : 'pts_visao_externa', 
                 data : myConfig, 
                 height: 500, 
-                width: 805 
+                width: 500 
             });
