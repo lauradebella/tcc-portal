@@ -3,7 +3,7 @@ var myConfig = {
   "background-color":"#ffffff",
   type: "hbar",
    "title":{
-                            "text":"Faixa salarial das Mulheres",
+                            "text":"Percentual de mulheres nas empresas de computação",
                             "y":"5%",
                             "background-color":"none",
                             "font-size":"20px",
@@ -12,7 +12,7 @@ var myConfig = {
   tooltip:{
     padding: 10,
     fontSize: 14,
-    text: "%v mulheres ganhando <br> %t",
+    text: "%v empresas com <br> %t mulheres",
     backgroundColor: "#fff",
     fontColor: "#444",
     borderRadius: "5px",
@@ -62,7 +62,7 @@ var myConfig = {
     fontFamily: 'Roboto'
   },
  	scaleX: {
- 	  labels: ['Faixa salarial <br>das Mulheres'],
+ 	  labels: ['Percentual <br>de Mulheres'],
  	  item: {
  	    fontFamily: "Roboto",
  	    fontSize: 14
@@ -75,7 +75,7 @@ var myConfig = {
  	scaleY: {
  	  label:{
  	    offsetY: 5,
- 	    text: "Número de Mulheres",
+ 	    text: "Número de Empresas",
  	    fontColor: "#777",
  	    fontSize: 14,
  	    fontFamily: "Roboto",
@@ -93,12 +93,12 @@ var myConfig = {
  	    lineStyle: "solid",
  	    lineColor: "#DDD"
  	  },
- 	  values: "0:80:10"
+ 	  values: "0:150:10"
  	},
 	series : [
 	  {
-		  text: "Menos de R$1500",
-		  values: [37],
+		  text: "Menos de 10%",
+		  values: [67],
 		  backgroundColor: "#f5f5f5",
 		  rules: [
 		    { rule: '%i==0', backgroundColor: '#fce4ec'},
@@ -106,48 +106,48 @@ var myConfig = {
 		},
  
 		{
-		  text: "De R$1500 até R$3000",
-		  values: [40],
+		  text: "acima de 10% até 30%",
+		  values: [106],
 		  backgroundColor: "#bdbdbd",
 		  rules: [
 		    { rule: '%i==0', backgroundColor: '#f8bbd0'},
 		  ]
 		},
 		{
-		  text: "Acima de R$3000 a R$4500",
-		  values: [42],
+		  text: "acima de 30% até 50%",
+		  values: [84],
 		  backgroundColor: "#9e9e9e",
 		  rules: [
 		    { rule: '%i==0', backgroundColor: '#f48fb1'},
 		  ]
 		},
     {
-      text: "Acima de R$4500 a R$6000",
-      values: [35],
+      text: "acima de 50% até 70%",
+      values: [26],
       backgroundColor: "#757575",
       rules: [
         { rule: '%i==0', backgroundColor: '#f06292'},
       ]
     },
      {
-      text: "Acima de R$6000 a R$8000",
-      values: [40],
+      text: "acima de 70%",
+      values: [6],
       backgroundColor: "#616161",
       rules: [
         { rule: '%i==0', backgroundColor: '#ec407a'},
       ]
     },
      {
-      text: "Acima de R$8000 a R$10000",
-      values: [18],
+      text: "Estou desempregado atualmente",
+      values: [48],
       backgroundColor: "#424242",
       rules: [
         { rule: '%i==0', backgroundColor: '#e91e63'},
       ]
     },
     {
-      text: "Acima de R$10000",
-      values: [17],
+      text: "Não sei",
+      values: [68],
       backgroundColor: "#424242",
       rules: [
         { rule: '%i==0', backgroundColor: '#d81b60'},
@@ -157,8 +157,8 @@ var myConfig = {
 };
  
 zingchart.render({ 
-	id : 'faixa_salarial', 
+	id : 'percentual_mulheres', 
 	data : myConfig, 
 	height: 500, 
-	width: 600 
+	width: 900 
 });

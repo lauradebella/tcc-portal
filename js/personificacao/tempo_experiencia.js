@@ -152,5 +152,5 @@ zingchart.render({
 	id : 'tempo_experiencia', 
 	data : myConfig, 
 	height: 500, 
-	width: 725 
+	width: 680 
 });
