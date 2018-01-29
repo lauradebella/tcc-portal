@@ -2,7 +2,7 @@
             var myConfigMatriculados = {
               type: 'line', 
               title: {
-                text: 'Matrículados por Gênero entre 2001 e 2015 no Brasil'
+                text: 'Matrículados em cursos de computação por gênero entre 2001 e 2015 no Brasil'
               },
               subtitle: {
                 text: ''
@@ -22,7 +22,7 @@
               series: [
                 {
                   values: [89070,111905,133902,147846,168450,182456,210156,241683,246743,261793,257434,255297,259737,272078,273150],
-                  text: 'Numero de matriculados do gênero masculinos',
+                  text: 'Numero de matriculados do gênero masculino',
                   "line-color":"#00bcd4",
                   "marker":{
                       "background-color":"#00bcd4",
@@ -110,7 +110,7 @@
             var myConfig = {
               type: 'line', 
               title: {
-                text: 'Concluíntes por Gênero entre 2001 e 2015 no Brasil'
+                text: 'Concluíntes em cursos de computação por gênero entre 2001 e 2015 no Brasil'
               },
               subtitle: {
                 text: ''
@@ -130,7 +130,7 @@
               series: [
                 {
                   values: [7256,9225,11437,16574,21452,23400,26019,28505,36364,34714,33222,33420,31940,32938,34828],
-                  text: 'Numero de concluintes do gênero masculinos',
+                  text: 'Numero de concluintes do gênero masculino',
                   "line-color":"#00bcd4",
                   "marker":{
                       "background-color":"#00bcd4",
