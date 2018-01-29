@@ -6,9 +6,9 @@ var myConfig = {
             "background-color": "white",
             "title": {
                 "text": "Comparação da média salarial entre homens e mulheres <br>que atuam em áreas da computação",
-                "font-color": "#7E7E7E",
+                "font-color": "black",
                 "backgroundColor": "none",
-                "font-size": "22px",
+                "font-size": "20px",
                 "alpha": 1,
                 "y": "15px",
                 "x": "15px"
@@ -22,7 +22,7 @@ var myConfig = {
             },
             "legend": {
                 "layout": "x3",
-                "y": "13%",
+                "y": "17%",
                 "x": "34.5%",
                 "overflow": "page",
                 "alpha": 0.05,
@@ -93,7 +93,7 @@ var myConfig = {
                   "bold": true,
                   "font-size": "14px",
                   "font-color": "#7E7E7E",
-                  "offset-y":"-190px",
+                  "offset-y":"-160px",
                   "offset-x":"20px"
             },
             },
@@ -115,7 +115,7 @@ var myConfig = {
                     ],
                     "alpha": 0.95,
                     "borderRadiusTopLeft": 7,
-                    "background-color": "#8993c7",
+                    "background-color": "#9575cd",
                     "text": "Homens"
                 },
                 {
@@ -135,7 +135,7 @@ var myConfig = {
                     ],
                     "borderRadiusTopLeft": 7,
                     "alpha": 0.95,
-                    "background-color": "#fdb462",
+                    "background-color": "#e91e63",
                     "text": "Mulheres"
                 }   
             ]
@@ -146,6 +146,6 @@ var myConfig = {
 zingchart.render({ 
 	id : 'media_salarial_homem_vs_mulher', 
 	data : myConfig, 
-	height: 500, 
-	width: 725 
+	height: 400, 
+	width: "60% "
 });

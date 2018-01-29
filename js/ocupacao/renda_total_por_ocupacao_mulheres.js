@@ -1,217 +1,91 @@
 var myConfig = {
-  backgroundColor:'#FBFCFE',
-  type: "ring",
-  title: {
-    text: "Monthly Page Views",
-    fontFamily: 'Lato',
-    fontSize: 14,
-    // border: "1px solid black",
-    padding: "15",
-    fontColor : "#1E5D9E",
-  },
-  subtitle: {
-    text: "06/10/16 - 07/11/16",
-    fontFamily: 'Lato',
-    fontSize: 12,
-    fontColor: "#777",
-    padding: "5"
-  },
+  type: "pie", 
+  backgroundColor: "white",
   plot: {
-    slice:'50%',
-    borderWidth:0,
-    backgroundColor:'#FBFCFE',
-    animation:{
-      effect:2,
-      sequence:3
+    borderColor: "white",
+    borderWidth: 5,
+    // slice: 90,
+    valueBox: {
+      placement: 'out',
+      text: '%t\n%npv%',
+      fontFamily: "Open Sans"
     },
-    valueBox: [
-      {
-        type: 'all',
-        text: '%t',
-        placement: 'out'
-      }, 
-      {
-        type: 'all',
-        text: '%npv%',
-        placement: 'in'
-      }
-    ]
+    tooltip:{
+      fontSize: '18',
+      fontFamily: "Open Sans",
+      padding: "5 5",
+      text: "%npv%"
+    },
+    animation:{
+      effect: 2, 
+      method: 5,
+      speed: 500,
+      sequence: 1
+    }
   },
-  tooltip:{
-      fontSize:16,
-      anchor:'c',
-      x:'50%',
-      y:'50%',
-      sticky:true,
-      backgroundColor:'none',
-      borderWidth:0,
-      thousandsSeparator:',',
-      text:'<span style="color:%color">Page Url: %t</span><br><span style="color:%color">Pageviews: %v</span>',
-      mediaRules:[
-        {
-            maxWidth:500,
-            y:'54%',
-        }
-      ]
+  title: {
+    fontColor: "black",
+    text: 'Renda total gerada por mulheres<br> em cada uma das ocupações',
+    backgroundColor: "white",
+    offsetX: 10,
+    fontSize: "20px"
   },
   plotarea: {
-    backgroundColor: 'transparent',
-    borderWidth: 0,
-    borderRadius: "0 0 0 10",
-    margin: "70 0 10 0"
+    margin: "0 0 0 0"  
   },
-  legend : {
-    toggleAction:'remove',
-    backgroundColor:'#FBFCFE',
-    borderWidth:0,
-    adjustLayout:true,
-    align:'center',
-    verticalAlign:'bottom',
-    marker: {
-        type:'circle',
-        cursor:'pointer',
-        borderWidth:0,
-        size:5
-    },
-    item: {
-        fontColor: "#777",
-        cursor:'pointer',
-        offsetX:-6,
-        fontSize:12
-    },
-    mediaRules:[
-        {
-            maxWidth:500,
-            visible:false
-        }
-    ]
-  },
-  scaleR:{
-    refAngle:270
-  },
-  series : [
+  series : [//"#e91e63", "#9c27b0", "#2196f3", "#00bcd4", "#009688", "#ffc107", "#cddc39", "#ff5722", "#4caf50"
     {
-      text: "Diretores de Serviços de Informática ",
+      text: "CBO1236",
       values : [4771503.76],
-      lineColor: "#00BAF2",
-      backgroundColor: "#00BAF2",
-      lineWidth: 1,
-      marker: {
-        backgroundColor: '#00BAF2'
-      }
+      backgroundColor: "#00bcd4"
     },
     {
-      text: "Engenheiros em Computação",
+      text: "CBO2122",
       values : [5726061.26],
-      lineColor: "#E80C60",
-      backgroundColor: "#E80C60",
-      lineWidth: 1,
-      marker: {
-        backgroundColor: '#E80C60'
-      }
+      backgroundColor: "#4caf50"
     },
     {
-      text: "Gerentes de Tecnologia da Informação",
+      text: "CBO1425",
       values : [73049692.58],
-      lineColor: "#9B26AF",
-      backgroundColor: "#9B26AF",
-      lineWidth: 1,
-      marker: {
-        backgroundColor: '#9B26AF'
-      }
+      backgroundColor: "#2196f3"
     },
     {
-      text: "Cientistas da Informação",
+      text: "CBO2612",
       values : [82109322.68],
-      lineColor: "#00BAF2",
-      backgroundColor: "#00BAF2",
-      lineWidth: 1,
-      marker: {
-        backgroundColor: '#00BAF2'
-      }
+      backgroundColor: "#e91e63"
     },
     {
-      text: "Administradores de Tecnologia da Informação",
+      text: "CBO2123",
       values : [17977374.31],
-      lineColor: "#E80C60",
-      backgroundColor: "#E80C60",
-      lineWidth: 1,
-      marker: {
-        backgroundColor: '#E80C60'
-      }
+      backgroundColor: "#009688",
     },
     {
-      text: "Analistas de Tecnologia da Informação",
+      text: "CBO2124",
       values : [36083234.4],
-      lineColor: "#9B26AF",
-      backgroundColor: "#9B26AF",
-      lineWidth: 1,
-      marker: {
-        backgroundColor: '#9B26AF'
-      }
+      backgroundColor: "#ffc107",
     },
     {
-      text: "Técnicos de Desenvolvimento de Sistemas",
+      text: "CBO3171",
       values : [358246646.6],
-      lineColor: "#00BAF2",
-      backgroundColor: "#00BAF2",
-      lineWidth: 1,
-      marker: {
-        backgroundColor: '#00BAF2'
-      }
+      backgroundColor: "#9c27b0",
     },
     {
-      text: "Técnicos em Operação de Computadores",
+      text: "CBO3172",
       values : [39182593,33],
-      lineColor: "#E80C60",
-      backgroundColor: "#E80C60",
-      lineWidth: 1,
-      marker: {
-        backgroundColor: '#E80C60'
-      }
+      backgroundColor: "#cddc39",
     },
     {
-      text: "Processadores de Dados",
+      text: "CBO4121",
       values : [66149172.99],
-      lineColor: "#9B26AF",
-      backgroundColor: "#9B26AF",
-      lineWidth: 1,
-      marker: {
-        backgroundColor: '#9B26AF'
-      }
+      backgroundColor: "#ff5722",
+      
     }
   ]
 };
  
 zingchart.render({ 
   id : 'renda_total_por_ocupacao_mulheres', 
-  data: {
-    gui:{
-      contextMenu:{
-        button:{
-          visible: true,
-          lineColor: "#2D66A4",
-          backgroundColor: "#2D66A4"
-        },
-        gear: {
-          alpha: 1,
-          backgroundColor: "#2D66A4"
-        },
-        position: "right",
-        backgroundColor:"#306EAA", /*sets background for entire contextMenu*/
-        docked: true, 
-        item:{
-          backgroundColor:"#306EAA",
-          borderColor:"#306EAA",
-          borderWidth: 0,
-          fontFamily: "Lato",
-          color:"#fff"
-        }
-      
-      },
-    },
-    graphset: [myConfig]
-  },
-  height: '499', 
-  width: '99%' 
+  data : myConfig, 
+  height: 500, 
+  width: "100%" 
 });
