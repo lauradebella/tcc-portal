@@ -3,7 +3,7 @@ zingchart.render({
     data: {
         type: "pie",
         "title":{
-                            "text":"Índice de discriminação em promoções",
+                            "text":"Índice de discriminação<br> em promoções",
                             "background-color":"none",
                             "font-size":"20px",
                             "font-color":"#000000"
@@ -48,7 +48,7 @@ zingchart.render({
             visible: true
         },
         plot: {
-            slice: '50%',
+            slice: '70%',
             refAngle: 270,
             detach: false,
             hoverState: {visible: false},
@@ -99,5 +99,5 @@ zingchart.render({
  
     },
     height : '500',
-    width : "725"
+    width : "425"
 });

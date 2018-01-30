@@ -22,7 +22,7 @@ var myConfig = {
  
   legend: {
     offsetY: 80,
-    offsetX: 0,
+    offsetX: 40,
     padding: 10,
     backgroundColor: "transparent",
     borderWidth: "0px",
@@ -56,13 +56,8 @@ var myConfig = {
  	    sequence: 1
  	  }
   },
-  source: {
-    text: "Source: sec.gov",
-    fontColor: "#666",
-    fontFamily: 'Roboto'
-  },
  	scaleX: {
- 	  labels: ['Faixa salarial <br>das Mulheres'],
+ 	  labels: ['Faixa salarial'],
  	  item: {
  	    fontFamily: "Roboto",
  	    fontSize: 14
@@ -160,5 +155,5 @@ zingchart.render({
 	id : 'faixa_salarial', 
 	data : myConfig, 
 	height: 500, 
-	width: 600 
+	width: 500 
 });

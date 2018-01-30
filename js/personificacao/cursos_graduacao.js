@@ -13,20 +13,14 @@
                         "height":"100%",
                         "background-color":"white",
                         "title":{
-                            "text":"Cursos de Graduação escolhidos pelas Mulheres",
+                            "text":"Cursos de Graduação na computação <br>cursados pelas mulheres",
                             "y":"5%",
                             "background-color":"none",
                             "font-size":"20px",
                             "font-color":"#000000"
                         },
-                        "subtitle":{
-                            "text":"Segundo questionários",
-                            "y":"12%",
-                            "background-color":"none",
-                            "font-size":"12px"
-                        },
                         "plotarea":{
-                            "margin":"auto auto auto auto"
+                            "margin":"65px auto auto auto"
                         },
                         "options":{
                             "max-items":20,
@@ -50,5 +44,5 @@
                 id : 'cursos_graduacao', 
                 data : myConfig, 
                 height: 500, 
-                width: 725 
+                width: 625 
             });

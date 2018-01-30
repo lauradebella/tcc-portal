@@ -22,7 +22,7 @@ var myConfig = {
  
   legend: {
     offsetY: 80,
-    offsetX: 0,
+    offsetX: 30,
     padding: 10,
     backgroundColor: "transparent",
     borderWidth: "0px",
@@ -39,6 +39,7 @@ var myConfig = {
     },
     cursor: "hand"
   },
+
   plotarea:{
     margin: "100 130 70 100"
   },
@@ -56,13 +57,8 @@ var myConfig = {
  	    sequence: 1
  	  }
   },
-  source: {
-    text: "Source: sec.gov",
-    fontColor: "#666",
-    fontFamily: 'Roboto'
-  },
  	scaleX: {
- 	  labels: ['Anos de <br>Experiência <br>das Mulheres'],
+ 	  labels: ['Anos de <br>Experiência'],
  	  item: {
  	    fontFamily: "Roboto",
  	    fontSize: 14
@@ -138,7 +134,7 @@ var myConfig = {
       ]
     },
      {
-      text: "Vinte anos ou mais de experiência",
+      text: "Vinte anos ou <br>mais de experiência",
       values: [20],
       backgroundColor: "#424242",
       rules: [
@@ -152,5 +148,5 @@ zingchart.render({
 	id : 'tempo_experiencia', 
 	data : myConfig, 
 	height: 500, 
-	width: 680 
+	width: 500 
 });

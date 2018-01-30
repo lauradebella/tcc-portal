@@ -12,7 +12,7 @@
                     "sizeFactor":1
                   },
                   "title":{
-                            "text":"Principais preconceitos sofridos pelas mulheres no ambiente de trabalho",
+                            "text":"Principais preconceitos sofridos pelas mulheres<br> no ambiente de trabalho",
                             "y":"1%",
                             "background-color":"none",
                             "font-size":"20px",

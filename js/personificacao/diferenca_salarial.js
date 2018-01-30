@@ -3,14 +3,14 @@ zingchart.render({
     data: {
         type: "pie",
         "title":{
-                            "text":"Diferenças salariais entre gêneros",
+                            "text":"Diferenças salariais <br>entre gêneros",
                             "background-color":"none",
                             "font-size":"20px",
                             "font-color":"#000000"
                         },
         labels : [
           {
-            text : "das mulheres ainda <br>identifica diferenças<br> salariais entre gêneros",
+            text : "das mulheres ainda <br>identificam <br>diferenças salariais<br> entre gêneros",
             x : "50%",
             y : "62%",
             anchor : "c",
@@ -48,7 +48,7 @@ zingchart.render({
             visible: true
         },
         plot: {
-            slice: '50%',
+            slice: '70%',
             refAngle: 270,
             detach: false,
             hoverState: {visible: false},
@@ -99,5 +99,5 @@ zingchart.render({
  
     },
     height : '500',
-    width : "725"
+    width : "425"
 });

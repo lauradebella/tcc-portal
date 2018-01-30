@@ -2,14 +2,14 @@ var myConfig = {
  	type: "treemap", 
   "background-color":"#fff",
   "title":{
-          "text":"Idade das mulheres que responderam o questionário",
+          "text":"Idade das mulheres que <br>responderam o questionário",
           "y":"1%",
           "background-color":"none",
           "font-size":"20px",
           "font-color":"#000000"
       },
  	"plotarea":{
- 	  "margin":"40px 40px 40px 40px"
+ 	  "margin":"70px 40px 40px 40px"
  	},
  	options: {
  	  "max-children":[6,6,6],
@@ -252,7 +252,7 @@ zingchart.render({
 	id : 'idades', 
 	data : myConfig, 
 	height: 500, 
-	width: 600,
+	width: 450,
 	hideprogresslogo: true,
 	output: 'canvas'
 });
