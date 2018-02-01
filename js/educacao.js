@@ -2,7 +2,7 @@
             var myConfigMatriculados = {
               type: 'line', 
               title: {
-                text: 'Matrículados em cursos de computação por gênero entre 2001 e 2015 no Brasil'
+                text: 'Matrículados em cursos de computação por gênero entre 2001 e 2015'
               },
               subtitle: {
                 text: ''
@@ -110,7 +110,7 @@
             var myConfig = {
               type: 'line', 
               title: {
-                text: 'Concluíntes em cursos de computação por gênero entre 2001 e 2015 no Brasil'
+                text: 'Concluíntes em cursos de computação por gênero entre 2001 e 2015'
               },
               subtitle: {
                 text: ''

@@ -2,7 +2,7 @@
             var myConfigEmpregosOcupacao = {
               type: 'line', 
               title: {
-                text: 'Número de empregos por ocupação entre 2003 e 2014 no Brasil do gênero feminino'
+                text: 'Número de empregos por ocupação entre 2003 e 2014 do gênero feminino'
               },
               subtitle: {
                 text: ''

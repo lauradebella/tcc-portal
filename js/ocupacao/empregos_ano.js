@@ -2,7 +2,7 @@
             var myConfigEmpregosGenero = {
               type: 'line', 
               title: {
-                text: 'Número de empregos na computação por Gênero entre 2003 e 2014 no Brasil'
+                text: 'Número de empregos na computação por gênero entre 2003 e 2014'
               },
               subtitle: {
                 text: ''
