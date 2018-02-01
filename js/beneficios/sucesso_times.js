@@ -1,26 +1,26 @@
 zingchart.render({
-    id: 'presenciaram_preconceito',
+    id: 'sucesso_times',
     data: {
         type: "pie",
         "title":{
-                            "text":"Pessoas que ja presenciaram discriminação<br> contra mulheres na computação",
+                            "text":"Pessoas acreditam que times<br>  com maior diversidade tem mais sucesso",
                             "background-color":"none",
                             "font-size":"20px",
                             "font-color":"#000000"
                         },
         labels : [
           {
-            text : "das pessoas já <br>presenciaram algum tipo de <br>preconceito contra <br>mulheres na computação",
+            text : "das pessoas acreditam <br>que os times com maior<br> diversidade de gênero<br>tem mais sucesso",
             x : "50%",
-            y : "52%",
+            y : "56%",
             anchor : "c",
-            fontSize : "15px",
+            fontSize : "17px",
             fontColor : "#7e57c2",
             alpha : 0.7
           },
           {
-            text: "71",
-            y : "28 %",
+            text: "61",
+            y : "30 %",
             textAlign : "center",
             //borderWidth : 1,
             //borderColor : "#000",
@@ -32,7 +32,7 @@ zingchart.render({
           },
           {
             text: "%",
-            y : "34%",
+            y : "36%",
             textAlign : "center",
             width : "100%",
             offsetX : "40px",
@@ -61,12 +61,12 @@ zingchart.render({
                 fontColor: "white",
                 rules: [{
                     rule: "%i == 0",
-                    text: "%v pessoas já presenciaram algum tipo de preconceito",
+                    text: "%v pessoas identificam diferenças salariais",
                     shadow: false,
                     borderRadius: 4
                 }, {
                     rule: "%i == 1",
-                    text: "%v pessoas nunca presenciaram preconceito",
+                    text: "%v pessoas não sabem ou não identificam diferenças salariais",
                     shadow: false,
                     borderRadius: 4
                 }]
@@ -76,7 +76,7 @@ zingchart.render({
             margin: "dynamic",
         },
         series: [{
-            values: [290],
+            values: [244],
             "gradient-colors" : "white white #7e57c2 white" ,
             "gradient-stops" : "0.2 0.5 0.5",
             fillType : "radial",
@@ -84,7 +84,7 @@ zingchart.render({
             shadow: 0,
             backgroundColor:'#7e57c2'
         }, {
-            values: [114],
+            values: [156],
             backgroundColor: "#7e57c2",
             //"gradient-colors" : "#000000 #7e57c2FFF",
             //"gradient-stops" : "0.9 0.4",
