@@ -30,12 +30,16 @@
                 }, 
              },
               "title":{
-                            "text":"Transições entre as áreas de atuação das mulheres na computação",
+                            "text":"Transições entre as áreas de <br>atuação das mulheres na computação",
                             "y":"1%",
                             "background-color":"none",
                             "font-size":"20px",
                             "font-color":"#000000"
                         }, 
+
+            "plotarea":{
+                            "margin":"65px auto auto auto"
+                        },
              // Specify your chart type here. 
           series:[  
            {  
@@ -129,5 +133,5 @@
             id : 'areas_de_atuacao', 
             data : myConfig, 
             height: '100%', 
-            width: '100%'
+            width: '500px'
           });

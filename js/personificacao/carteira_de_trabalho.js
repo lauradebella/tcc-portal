@@ -1,16 +1,16 @@
 zingchart.render({
-    id: 'preterida_em_promocao',
+    id: 'carteira_de_trabalho',
     data: {
         type: "pie",
         "title":{
-                            "text":"Índice de discriminação<br> em promoções",
+                            "text":"Mulheres cuja função não corresponde <br>àquela descrita na carteira de trabalho",
                             "background-color":"none",
                             "font-size":"20px",
                             "font-color":"#000000"
                         },
         labels : [
           {
-            text : "das mulheres já <br>se sentiram preteridas<br>em promoções<br> por serem mulheres",
+            text : "das mulheres atuam <br>em funções diferentes <br>das descritas<br> na carteira de trabalho",
             x : "50%",
             y : "62%",
             anchor : "c",
@@ -19,7 +19,7 @@ zingchart.render({
             alpha : 0.7
           },
           {
-            text: "38",
+            text: "21",
             y : "36%",
             textAlign : "center",
             //borderWidth : 1,
@@ -60,13 +60,13 @@ zingchart.render({
             tooltip: {
                 fontColor: "white",
                 rules: [{
-                    rule: "%v > 72",
-                    text: "%v mulheres nunca foram preteridas",
+                    rule: "%v <= 50",
+                    text: "%v mulheres não atuam na função descrita em sua carteira de trabalho",
                     shadow: false,
                     borderRadius: 4
                 }, {
-                    rule: "%v <= 72",
-                    text: "%v mulheres já foram preteridas",
+                    rule: "%v > 50",
+                    text: "%v mulheres atuam na função descrita em sua carteira de trabalho",
                     shadow: false,
                     borderRadius: 4
                 }]
@@ -76,7 +76,7 @@ zingchart.render({
             margin: "dynamic",
         },
         series: [{
-            values: [72],
+            values: [50],
             "gradient-colors" : "white white #7e57c2 white" ,
             "gradient-stops" : "0.2 0.5 0.5",
             fillType : "radial",
@@ -84,7 +84,7 @@ zingchart.render({
             shadow: 0,
             backgroundColor:'#7e57c2'
         }, {
-            values: [152],
+            values: [179],
             backgroundColor: "#7e57c2",
             //"gradient-colors" : "#000000 #7e57c2FFF",
             //"gradient-stops" : "0.9 0.4",

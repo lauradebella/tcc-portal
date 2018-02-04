@@ -60,12 +60,12 @@ zingchart.render({
             tooltip: {
                 fontColor: "white",
                 rules: [{
-                    rule: "%i == 0",
+                    rule: "%v <= 50",
                     text: "%v mulheres identificam diferenças salariais",
                     shadow: false,
                     borderRadius: 4
                 }, {
-                    rule: "%i == 1",
+                    rule: "%v > 50",
                     text: "%v mulheres não identificam diferenças salariais",
                     shadow: false,
                     borderRadius: 4

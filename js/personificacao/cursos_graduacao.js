@@ -23,9 +23,9 @@
                             "margin":"65px auto auto auto"
                         },
                         "options":{
-                            "max-items":20,
+                            "max-items":40,
                             "font-family":"Arial",
-                            "rotate":true,
+                            "rotate":false,
                             "min-length":4,
                             "min-font-size":"9px",
                             "max-font-size":"30px",
