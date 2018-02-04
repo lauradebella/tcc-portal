@@ -60,12 +60,12 @@ zingchart.render({
             tooltip: {
                 fontColor: "white",
                 rules: [{
-                    rule: "%i == 0",
+                    rule: "%v == 69",
                     text: "%v empresas preocupadas com questões de gênero",
                     shadow: false,
                     borderRadius: 4
                 }, {
-                    rule: "%i == 1",
+                    rule: "%v == 286",
                     text: "%v empresas sem preocupação com questões de gênero",
                     shadow: false,
                     borderRadius: 4

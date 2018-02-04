@@ -60,12 +60,12 @@ zingchart.render({
             tooltip: {
                 fontColor: "white",
                 rules: [{
-                    rule: "%v <= 186",
+                    rule: "%v == 186",
                     text: "%v empresas com maioria feminina",
                     shadow: false,
                     borderRadius: 4
                 }, {
-                    rule: "%v > 44",
+                    rule: "%v == 44",
                     text: "%v empresas com minoria feminina",
                     shadow: false,
                     borderRadius: 4

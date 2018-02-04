@@ -60,13 +60,13 @@ zingchart.render({
             tooltip: {
                 fontColor: "white",
                 rules: [{
-                    rule: "%v > 72",
-                    text: "%v mulheres nunca foram preteridas",
+                    rule: "%v == 72",
+                    text: "%v mulheres já foram preteridas",
                     shadow: false,
                     borderRadius: 4
                 }, {
-                    rule: "%v <= 72",
-                    text: "%v mulheres já foram preteridas",
+                    rule: "%v > 72",
+                    text: "%v mulheres nunca foram preteridas",
                     shadow: false,
                     borderRadius: 4
                 }]

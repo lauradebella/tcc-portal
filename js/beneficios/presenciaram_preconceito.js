@@ -60,12 +60,12 @@ zingchart.render({
             tooltip: {
                 fontColor: "white",
                 rules: [{
-                    rule: "%i == 0",
+                    rule: "%v == 290",
                     text: "%v pessoas já presenciaram algum tipo de preconceito",
                     shadow: false,
                     borderRadius: 4
                 }, {
-                    rule: "%i == 1",
+                    rule: "%v == 114",
                     text: "%v pessoas nunca presenciaram preconceito",
                     shadow: false,
                     borderRadius: 4

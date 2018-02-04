@@ -60,7 +60,7 @@ zingchart.render({
             tooltip: {
                 fontColor: "white",
                 rules: [{
-                    rule: "%v <= 50",
+                    rule: "%v == 50",
                     text: "%v mulheres não atuam na função descrita em sua carteira de trabalho",
                     shadow: false,
                     borderRadius: 4
