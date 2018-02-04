@@ -5,23 +5,7 @@
              "options":{  
                 "angle-padding":1,
                 "color-type":"palette",
-                "palette":[  
-                   "#F44336",
-                   "#E91E63",
-                   "#9C27B0",
-                   "#673AB7",
-                   "#3F51B5",
-                   "#03A9F4",
-                   "#00BCD4",
-                   "#009688",
-                   "#4CAF50",
-                   "#8BC34A",
-                   "#CDDC39",
-                   "#FFEB3B",
-                   "#FFC107",
-                   "#FF9800",
-                   "#FF5722"
-                ],
+                "palette":["#e91e63", "#00bcd4", "#9575cd", "#009688", "#9c27b0", "#e91e63", "#3f51b5"],
                 "style":{
 
                   "label":{

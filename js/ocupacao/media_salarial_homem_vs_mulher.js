@@ -115,7 +115,7 @@ var myConfig = {
                     ],
                     "alpha": 0.95,
                     "borderRadiusTopLeft": 7,
-                    "background-color": "#9575cd",
+                    "background-color": "#00bcd4",
                     "text": "Homens"
                 },
                 {

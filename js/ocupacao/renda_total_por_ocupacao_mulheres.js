@@ -7,14 +7,14 @@ var myConfig = {
     // slice: 90,
     valueBox: {
       placement: 'out',
-      text: '%t\n%npv%',
+      text: '%npv%',
       fontFamily: "Open Sans"
     },
     tooltip:{
       fontSize: '18',
       fontFamily: "Open Sans",
       padding: "5 5",
-      text: "%npv%"
+      text: "%t<br>R$%v"
     },
     animation:{
       effect: 2, 
@@ -35,47 +35,47 @@ var myConfig = {
   },
   series : [//"#e91e63", "#9c27b0", "#2196f3", "#00bcd4", "#009688", "#ffc107", "#cddc39", "#ff5722", "#4caf50"
     {
-      text: "CBO1236",
+      text: "Diretores de Serviços de Informática",
       values : [4771503.76],
       backgroundColor: "#00bcd4"
     },
     {
-      text: "CBO2122",
+      text: "Engenheiros em Computação",
       values : [5726061.26],
       backgroundColor: "#4caf50"
     },
     {
-      text: "CBO1425",
+      text: "Gerentes de Tecnologia da Informação",
       values : [73049692.58],
-      backgroundColor: "#2196f3"
+      backgroundColor: "#00bcd4"
     },
     {
-      text: "CBO2612",
+      text: "Cientistas da Informação",
       values : [82109322.68],
       backgroundColor: "#e91e63"
     },
     {
-      text: "CBO2123",
+      text: "Administradores de Tecnologia da Informação",
       values : [17977374.31],
       backgroundColor: "#009688",
     },
     {
-      text: "CBO2124",
+      text: "Analistas de Tecnologia da Informação",
       values : [36083234.4],
       backgroundColor: "#ffc107",
     },
     {
-      text: "CBO3171",
+      text: "Técnicos de Desenvolvimento de Sistemas",
       values : [358246646.6],
       backgroundColor: "#9c27b0",
     },
     {
-      text: "CBO3172",
+      text: "Técnicos em Operação de Computadores",
       values : [39182593,33],
       backgroundColor: "#cddc39",
     },
     {
-      text: "CBO4121",
+      text: "Processadores de Dados",
       values : [66149172.99],
       backgroundColor: "#ff5722",
       
