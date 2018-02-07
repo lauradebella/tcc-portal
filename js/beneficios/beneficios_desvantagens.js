@@ -13,7 +13,7 @@ zingchart.MODULESDIR = "https://cdn.zingchart.com/modules/";
                         "height":"100%",
                         "background-color":"white",
                         "title":{
-                            "text":"Benefícios",
+                            "text":"Benefícios da diversidade <br>de gênero nos times",
                             "y":"5%",
                             "background-color":"none",
                             "font-size":"20px",
@@ -43,7 +43,7 @@ zingchart.MODULESDIR = "https://cdn.zingchart.com/modules/";
                         "height":"100%",
                         "background-color":"white",
                         "title":{
-                            "text":"Desvantagens",
+                            "text":"Desvantagens da diversidade <br>de gênero nos times",
                             "y":"5%",
                             "background-color":"none",
                             "font-size":"20px",

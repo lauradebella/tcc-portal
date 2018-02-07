@@ -12,7 +12,7 @@
                         "height":"100%",
                         "background-color":"white",
                         "title":{
-                            "text":"Pontos Fortes",
+                            "text":"Pontos Fortes da <br>atuação das mulheres",
                             "y":"5%",
                             "background-color":"none",
                             "font-size":"16px",
@@ -20,12 +20,12 @@
                         },
                         "subtitle":{
                             "text":"Na visão dos outros",
-                            "y":"12%",
+                            "y":"14%",
                             "background-color":"none",
                             "font-size":"12px"
                         },
                         "plotarea":{
-                            "margin":"50 auto auto auto"
+                            "margin":"80 auto auto auto"
                         },
                         "options":{
                             "max-items":20,
@@ -48,7 +48,7 @@
                         "height":"100%",
                         "background-color":"white",
                         "title":{
-                            "text":"Pontos Fracos",
+                            "text":"Pontos Fracos da <br>atuação das mulheres",
                             "y":"5%",
                             "background-color":"none",
                             "font-size":"16px",
@@ -56,12 +56,12 @@
                         },
                         "subtitle":{
                             "text":"Na visão dos outros",
-                            "y":"12%",
+                            "y":"14%",
                             "background-color":"none",
                             "font-size":"12px"
                         },
                         "plotarea":{
-                            "margin":"50 auto auto auto"
+                            "margin":"80 auto auto auto"
                         },
                         "options":{
                             "max-items":25,
