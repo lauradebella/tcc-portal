@@ -25,7 +25,7 @@ var myConfig = {
   },
   title: {
     fontColor: "black",
-    text: 'Renda total gerada por mulheres<br> em cada uma das ocupações',
+    text: 'Renda total gerada por mulheres<br> em cada uma das ocupações em 2014',
     backgroundColor: "white",
     offsetX: 10,
     fontSize: "20px"
