@@ -4,14 +4,44 @@
               title: {
                 text: 'Número de empregos na computação por gênero entre 2003 e 2014'
               },
-              subtitle: {
-                text: ''
-              },
               plot: {
                 tooltip: {
                   visible: false
                 },
                 cursor: 'hand'
+              },
+              "legend": {
+                  "layout": "x3",
+                  "y": "9%",
+                  "x": "34.5%",
+                  "overflow": "page",
+                  "alpha": 0.05,
+                  "shadow": false,
+                  "marker": {
+                      "type": "circle",
+                      "border-color": "none",
+                      "size": "8px"
+                  },
+                  "border-width": 0,
+                  "maxItems": 3,
+                  "toggle-action": "remove",
+                  "pageOn": {
+                      "backgroundColor": "#000",
+                      "size": "10px",
+                      "alpha": 0.65
+                  },
+                  "pageOff": {
+                      "backgroundColor": "#7E7E7E",
+                      "size": "10px",
+                      "alpha": 0.65
+                  },
+                  "pageStatus": {
+                      "color": "black"
+                  }
+              },
+              "plotarea": {
+                  "margin": "60 60 100 60",
+                  "y": "100px"
               },
               crosshairX:{},
               scaleX: {
@@ -22,7 +52,7 @@
               series: [
                 {
                   values: [196464,215074,234632,258049,279556,311193,333336,367104,375710,392989,418368,439693],
-                  text: 'Numero de empregos do gênero masculinos',
+                  text: 'Gênero masculino',
                   "line-color":"#00bcd4",
                   "marker":{
                       "background-color":"#00bcd4",
@@ -31,7 +61,7 @@
                 },
                 {
                   values: [123755,134418,137477,143406,147003,154974,156754,166784,148681,148076,150832,153531],
-                  text: 'Numero de empregos do gênero femininos',
+                  text: 'Gênero feminino',
                   "line-color":"#e91e63",
                   "marker":{
                       "background-color":"#e91e63",

@@ -30,7 +30,7 @@ var myConfig = {
                 "marker": {
                     "type": "circle",
                     "border-color": "none",
-                    "size": "10px"
+                    "size": "8px"
                 },
                 "border-width": 0,
                 "maxItems": 3,

@@ -4,9 +4,6 @@
               title: {
                 text: 'Matrículados em cursos de computação por gênero entre 2001 e 2015'
               },
-              subtitle: {
-                text: ''
-              },
               plot: {
                 tooltip: {
                   visible: false
@@ -19,10 +16,43 @@
                 offsetEnd:75,
                 labels: [2001,2002,2003,2004,2005,2006,2007,2008,2009,2010,2011,2012,2013,2014,2015]
               },
+              "legend": {
+                  "layout": "x3",
+                  "y": "9%",
+                  "x": "34.5%",
+                  "overflow": "page",
+                  "alpha": 0.05,
+                  "shadow": false,
+                  "marker": {
+                      "type": "circle",
+                      "border-color": "none",
+                      "size": "8px"
+                  },
+                  "border-width": 0,
+                  "maxItems": 3,
+                  "toggle-action": "remove",
+                  "pageOn": {
+                      "backgroundColor": "#000",
+                      "size": "10px",
+                      "alpha": 0.65
+                  },
+                  "pageOff": {
+                      "backgroundColor": "#7E7E7E",
+                      "size": "10px",
+                      "alpha": 0.65
+                  },
+                  "pageStatus": {
+                      "color": "black"
+                  }
+              },
+              "plotarea": {
+                  "margin": "60 60 100 60",
+                  "y": "100px"
+              },
               series: [
                 {
                   values: [89070,111905,133902,147846,168450,182456,210156,241683,246743,261793,257434,255297,259737,272078,273150],
-                  text: 'Numero de matriculados do gênero masculino',
+                  text: 'Gênero masculino',
                   "line-color":"#00bcd4",
                   "marker":{
                       "background-color":"#00bcd4",
@@ -31,7 +61,7 @@
                 },
                 {
                   values: [28281,33190,36627,38061,41230,42151,44613,54662,54000,52643,49958,47777,47154,49042,46921,],
-                  text: 'Numero de matriculados do gênero femininos',
+                  text: 'Gênero feminino',
                   "line-color":"#e91e63",
                   "marker":{
                       "background-color":"#e91e63",
@@ -127,10 +157,43 @@
                 offsetEnd:75,
                 labels: [2001,2002,2003,2004,2005,2006,2007,2008,2009,2010,2011,2012,2013,2014,2015]
               },
+              "legend": {
+                  "layout": "x3",
+                  "y": "9%",
+                  "x": "34.5%",
+                  "overflow": "page",
+                  "alpha": 0.05,
+                  "shadow": false,
+                  "marker": {
+                      "type": "circle",
+                      "border-color": "none",
+                      "size": "8px"
+                  },
+                  "border-width": 0,
+                  "maxItems": 3,
+                  "toggle-action": "remove",
+                  "pageOn": {
+                      "backgroundColor": "#000",
+                      "size": "10px",
+                      "alpha": 0.65
+                  },
+                  "pageOff": {
+                      "backgroundColor": "#7E7E7E",
+                      "size": "10px",
+                      "alpha": 0.65
+                  },
+                  "pageStatus": {
+                      "color": "black"
+                  }
+              },
+              "plotarea": {
+                  "margin": "60 60 100 60",
+                  "y": "100px"
+              },
               series: [
                 {
                   values: [7256,9225,11437,16574,21452,23400,26019,28505,36364,34714,33222,33420,31940,32938,34828],
-                  text: 'Numero de concluintes do gênero masculino',
+                  text: 'Gênero masculino',
                   "line-color":"#00bcd4",
                   "marker":{
                       "background-color":"#00bcd4",
@@ -139,7 +202,7 @@
                 },
                 {
                   values: [3380,3470,3881,5216,6455,6450,6432,6775,8955,7762,6902,7127,6448,6404,6638],
-                  text: 'Numero de concluintes do gênero feminino',
+                  text: 'Gênero feminino',
                   "line-color":"#e91e63",
                   "marker":{
                       "background-color":"#e91e63",

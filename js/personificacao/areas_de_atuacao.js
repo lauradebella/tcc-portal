@@ -20,9 +20,39 @@
                             "font-size":"20px",
                             "font-color":"#000000"
                         }, 
+              "legend": {
+                  "layout": "x3",
+                  "y": "11%",
+                  "x": "15.5%",
+                  "overflow": "page",
+                  "alpha": 0.05,
+                  "shadow": false,
+                  "marker": {
+                      "type": "circle",
+                      "border-color": "none",
+                      "size": "8px"
+                  },
+                  "border-width": 0,
+                  "maxItems": 3,
+                  "toggle-action": "remove",
+                  "pageOn": {
+                      "backgroundColor": "#000",
+                      "size": "10px",
+                      "alpha": 0.65
+                  },
+                  "pageOff": {
+                      "backgroundColor": "#7E7E7E",
+                      "size": "10px",
+                      "alpha": 0.65
+                  },
+                  "pageStatus": {
+                      "color": "black"
+                  }
+              },
 
             "plotarea":{
-                            "margin":"65px auto auto auto"
+                            "margin":"100px auto auto auto"
+
                         },
              // Specify your chart type here. 
           series:[  

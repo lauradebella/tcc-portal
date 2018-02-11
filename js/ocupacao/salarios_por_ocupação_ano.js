@@ -18,6 +18,39 @@ var myConfigSalarioOcupacao = {
                 offsetEnd:75,
                 labels: [2003,2004,2005,2006,2007,2008,2009,2010,2011,2012,2013,2014]
               },
+              "legend": {
+                  "layout": "x3",
+                  "y": "9%",
+                  "x": "15.5%",
+                  "overflow": "page",
+                  "alpha": 0.05,
+                  "shadow": false,
+                  "marker": {
+                      "type": "circle",
+                      "border-color": "none",
+                      "size": "8px"
+                  },
+                  "border-width": 0,
+                  "maxItems": 3,
+                  "toggle-action": "remove",
+                  "pageOn": {
+                      "backgroundColor": "#000",
+                      "size": "10px",
+                      "alpha": 0.65
+                  },
+                  "pageOff": {
+                      "backgroundColor": "#7E7E7E",
+                      "size": "10px",
+                      "alpha": 0.65
+                  },
+                  "pageStatus": {
+                      "color": "black"
+                  }
+              },
+              "plotarea": {
+                  "margin": "60 60 100 60",
+                  "y": "100px"
+              },
               series: [
                 {
                   values: [3579.11,4489.61,2968.08,4139.12,4233.87,5895.08,6035.07,5487.89,6519.41,8502.09,8656.65,9878.88],
