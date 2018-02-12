@@ -2,7 +2,7 @@ var myConfig = {
  	type: "treemap", 
   "background-color":"#fff",
   "title":{
-          "text":"Idade das mulheres que <br>responderam o questionário",
+          "text":"Idade das mulheres que responderam o questionário",
           "y":"1%",
           "background-color":"none",
           "font-size":"20px",
