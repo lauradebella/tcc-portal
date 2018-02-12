@@ -147,5 +147,5 @@ zingchart.render({
 	id : 'media_salarial_homem_vs_mulher', 
 	data : myConfig, 
 	height: 400, 
-	width: "60% "
+	width: "70% "
 });

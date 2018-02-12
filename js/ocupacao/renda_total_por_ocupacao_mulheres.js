@@ -7,7 +7,7 @@ var myConfig = {
     // slice: 90,
     valueBox: {
       placement: 'out',
-      text: '%npv%',
+      text: '%t<br>%npv%',
       fontFamily: "Open Sans"
     },
     tooltip:{
@@ -31,7 +31,7 @@ var myConfig = {
     fontSize: "20px"
   },
   plotarea: {
-    margin: "0 0 0 0"  
+    margin: "70px 0 0 0"  
   },
   series : [//"#e91e63", "#9c27b0", "#2196f3", "#00bcd4", "#009688", "#ffc107", "#cddc39", "#ff5722", "#4caf50"
     {

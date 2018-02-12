@@ -14,42 +14,73 @@
 
 
 
-  <nav class="deep-purple lighten-2" role="navigation">
+  <nav class="deep-purple lighten-2 nav-extended" role="navigation">
     <div class="nav-wrapper container"><a id="logo-container" href="#" class="brand-logo">Portal XX</a>
       <ul class="right hide-on-med-and-down">
         <li><a href='index.html'>Página Inicial</a></li>
         <li><a href='educacao.html'>Formação</a></li>
-        <li><a href='ocupacao.html'>Ocupação</a></li>
+        <li class="active" ><a href='ocupacao.html'>Ocupação</a></li>
         <li><a href='personificacao.html'>Personificação</a></li>
         <li><a href='beneficios.html'>Beneficios</a></li>
       </ul>
 
       <ul id="nav-mobile" class="side-nav">
-        <li><a href='index.html'>Página Inicial</a></li>
+        <li><a href='index.html'>Página InSicial</a></li>
         <li><a href='educacao.html'>Formação</a></li>
-        <li><a href='ocupacao.html'>Ocupação</a></li>
+        <li class="active"><a href='ocupacao.html'>Ocupação</a></li>
         <li><a href='personificacao.html'>Personificação</a></li>
         <li><a href='beneficios.html'>Beneficios</a></li>
       </ul>
       <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
     </div>
+
+     <div class="nav-content">
+      <ul class="tabs deep-purple lighten-3" id="nav-tabs">
+
+        <li class="tab internal-tabs"><a class="active" href="#gerais">Dados Gerais</a></li>
+        <li class="tab internal-tabs"><a href="#comparativos">Dados Comparativos</a></li>
+        <li class="tab internal-tabs"><a href="#por_ocupacao">Dados por Ocupação</a></li>
+        <li class="tab internal-tabs"><a href="#transicoes">Transições</a></li>
+      </ul>
+    </div>
+
   </nav>
 
-
-
-  <div class="section no-pad-bot" id="index-banner">
+  <!-- <div class="section no-pad-bot" id="index-banner">
     <div class="container">
       <br><br>
       <h1 class="header center lighten-2 deep-purple-text">Dados de Ocupação</h1>
     </div>
-  </div>
-
-
-  
-      
-  <div class="container">
+  </div> -->
+  <br><br>
+  <div class="container" id="gerais">
     <div class="section">
-      
+      <div id='renda_total_por_ocupacao_mulheres' style=" height: 600px;"></div>
+      <table border="1" hidden summary="Tabela com a Renda total gerada por mulheres em cada uma das ocupações em 2014">
+
+        <caption>
+          Renda total gerada por mulheres em cada uma das ocupações em 2014
+        </caption>
+
+        <tr>
+          <td></td>
+          <th>Diretoras de Serviços de Informática</th>
+          <th>Engenheiras em Computação</th>
+          <th>Gerentes de Tecnologia da Informação</th>
+          <th>Administradoras de Tecnologia da Informação</th>
+          <th>Analistas de Tecnologia da Informação</th>
+          <th>Cientistas da Informação</th>
+          <th>Técnicas de Desenvolvimento de Sistemas</th>
+          <th>Técnicas em Operação de Computadores</th>
+          <th>Processadoras de Dados</th>
+        </tr>
+        <tr><th>2014</th> <td>4771503.76</td><td>5726061.26</td><td>73049692.58</td><td>82109322.68</td><td>17977374.31</td><td>36083234.4</td><td>358246646.6</td><td>39182593,33</td><td>66149172.99</td></tr>
+      </table>
+    </div>
+  </div>  
+
+  <div class="container" id="comparativos" style="height: 900px">
+    <div class="section">
       <div id='empregos_ano' style=" height: 400px;"></div> 
       <table border="1" hidden summary="Tabela com o Número de empregos na computação por gênero entre 2003 e 2014">
 
@@ -76,7 +107,7 @@
               <tr><th>2014</th><td>439693</td><td>153531</td></tr>
       </table>
 
-      <div id='media_salarial_homem_vs_mulher' style=" height: 450px; float:left;"></div>
+      <div id='media_salarial_homem_vs_mulher' style=" height: 450px;"></div>
       <table border="1" hidden summary="Tabela com a comparação da média salarial entre homens e mulheres que atuam em áreas da computação">
 
               <caption>
@@ -101,30 +132,11 @@
               <tr><th>2013</th><td>4804.77</td><td>4173.93</td></tr>
               <tr><th>2014</th><td>5119.70</td><td>4450.53</td></tr>
       </table>
+    </div>
+  </div>
 
-      <div id='renda_total_por_ocupacao_mulheres' style=" height: 450px;"></div>
-      <table border="1" hidden summary="Tabela com a Renda total gerada por mulheres em cada uma das ocupações em 2014">
-
-        <caption>
-          Renda total gerada por mulheres em cada uma das ocupações em 2014
-        </caption>
-
-        <tr>
-          <td></td>
-          <th>Diretoras de Serviços de Informática</th>
-          <th>Engenheiras em Computação</th>
-          <th>Gerentes de Tecnologia da Informação</th>
-          <th>Administradoras de Tecnologia da Informação</th>
-          <th>Analistas de Tecnologia da Informação</th>
-          <th>Cientistas da Informação</th>
-          <th>Técnicas de Desenvolvimento de Sistemas</th>
-          <th>Técnicas em Operação de Computadores</th>
-          <th>Processadoras de Dados</th>
-        </tr>
-        <tr><th>2014</th> <td>4771503.76</td><td>5726061.26</td><td>73049692.58</td><td>82109322.68</td><td>17977374.31</td><td>36083234.4</td><td>358246646.6</td><td>39182593,33</td><td>66149172.99</td></tr>
-      </table>
-
-
+  <div class="container" id="por_ocupacao">
+    <div class="section">
       <div id='empregos_por_ocupação_ano' style=" height: 400px;"></div> 
       <table border="1" hidden summary="Tabela com o Número de empregos por ocupação entre 2003 e 2014 do gênero feminino">
 
@@ -190,10 +202,103 @@
         <tr><th>2013</th> <td>8656.65</td><td>7337.26</td><td>8809.64</td><td>4385.72</td><td>4592.47</td><td>3507.08</td><td>5600.95</td><td>1821.76</td><td>1875.83</td></tr>
         <tr><th>2014</th> <td>9878.88</td><td>7426.79</td><td>9374.96</td><td>4641.71</td><td>4801.43</td><td>3832.11</td><td>5821.26</td><td>1979.21</td><td>2019.39</td></tr>
       </table>
-
     </div>
-    <br><br>
   </div>
+
+
+  <div class="container" id="transicoes">
+    <div class="section">
+      <div id='areas_de_atuacao' style=" height: 600px;" ></div>
+      <table border="1" hidden summary="Tabela com as Transições entre as áreas de atuação das mulheres na computação">
+
+        <caption>
+          Transições entre as áreas de atuação das mulheres na computação
+        </caption>
+
+        <tr>
+          <td></td>
+          <th>Desenvolvedoras</th>
+          <th>Testadoras</th>
+          <th>Professoras</th>
+          <th>Pesquisadoras</th>
+          <th>Analistas de Requisitos</th>
+          <th>Designers</th>
+          <th>Gerentes</th>
+        </tr>
+        <tr>
+          <th>Desenvolvedoras</th>
+          <td>87</td>
+          <td>32</td>
+          <td>2</td>
+          <td>35</td>
+          <td>0</td>
+          <td>2</td>
+          <td>13</td>
+        </tr>
+        <tr>
+          <th>Testadoras</th>
+          <td>30</td>
+          <td>37</td>
+          <td>0</td>
+          <td>14</td>
+          <td>1</td>
+          <td>0</td>
+          <td>15</td>
+        </tr>
+        <tr>
+          <th>Professoras</th>
+          <td>25</td>
+          <td>5</td>
+          <td>1</td>
+          <td>24</td>
+          <td>0</td>
+          <td>1</td>
+          <td>5</td>
+        </tr>
+        <tr>
+          <th>Pesquisadoras</th>
+          <td>20</td>
+          <td>6</td>
+          <td>0</td>
+          <td>22</td>
+          <td>0</td>
+          <td>1</td>
+          <td>6</td>
+        </tr>
+        <tr>
+          <th>Analistas de Requisitos</th>
+          <<td>37</td>
+          <td>23</td>
+          <td>0</td>
+          <td>14</td>
+          <td>1</td>
+          <td>0</td>
+          <td>16</td>
+        </tr>
+        <tr>
+          <th>Designers</th>
+          <td>10</td>
+          <td>6</td>
+          <td>0</td>
+          <td>7</td>
+          <td>0</td>
+          <td>1</td>
+          <td>3</td>
+        </tr>
+        <tr>
+          <th>Gerentes</th>
+          <td>30</td>
+          <td>21</td>
+          <td>0</td>
+          <td>12</td>
+          <td>1</td>
+          <td>0</td>
+          <td>35</td>
+        </tr>
+      </table>
+    </div>
+  </div>  
+
 
   <footer class="page-footer deep-purple lighten-2">
     <div class="container">
@@ -236,6 +341,7 @@
   <script src="js/ocupacao/empregos_ano.js"></script>
   <script src="js/ocupacao/media_salarial_homem_vs_mulher.js"></script>
   <script src="js/ocupacao/renda_total_por_ocupacao_mulheres.js"></script>
+  <script src="js/ocupacao/areas_de_atuacao.js"></script>
 
 
 
