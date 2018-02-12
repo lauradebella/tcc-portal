@@ -25,13 +25,13 @@ var myConfig = {
   },
   title: {
     fontColor: "black",
-    text: 'Satisfação das mulheres<br> com suas profissões',
+    text: 'Satisfação das mulheres com suas profissões',
     backgroundColor: "white",
     offsetX: 10,
     fontSize: "20px"
   },
   plotarea: {
-    margin: "100px auto"  
+    margin: "60px auto auto auto"  
   },
   series : [//"#e91e63", "#9c27b0", "#2196f3", "#00bcd4", "#009688", "#ffc107", "#cddc39", "#ff5722", "#4caf50"
     {
@@ -63,5 +63,5 @@ zingchart.render({
   id : 'satisfacao_com_profissao', 
   data : myConfig, 
   height: 500, 
-  width: 500 
+  width: 800 
 });

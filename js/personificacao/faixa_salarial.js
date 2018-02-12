@@ -155,5 +155,5 @@ zingchart.render({
 	id : 'faixa_salarial', 
 	data : myConfig, 
 	height: 500, 
-	width: 500 
+	width: 700 
 });

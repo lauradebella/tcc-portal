@@ -252,7 +252,7 @@ zingchart.render({
 	id : 'idades', 
 	data : myConfig, 
 	height: 500, 
-	width: 450,
+	width: 850,
 	hideprogresslogo: true,
 	output: 'canvas'
 });

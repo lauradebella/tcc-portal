@@ -28,7 +28,7 @@
                             "margin":"80 auto auto auto"
                         },
                         "options":{
-                            "max-items":20,
+                            "max-items":40,
                             "font-family":"Arial",
                             "rotate":true,
                             "min-length":4,
@@ -64,7 +64,7 @@
                             "margin":"80 auto auto auto"
                         },
                         "options":{
-                            "max-items":25,
+                            "max-items":45,
                             "font-family":"Arial",
                             "rotate":true,
                             "min-length":4,
@@ -85,5 +85,5 @@
                 id : 'pts_visao_externa', 
                 data : myConfig, 
                 height: 500, 
-                width: 500 
+                width: 800 
             });
