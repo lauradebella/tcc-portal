@@ -14,41 +14,47 @@
 
 
 
-  <nav class="deep-purple lighten-2" role="navigation">
+<nav class="deep-purple lighten-2 nav-extended" role="navigation">
     <div class="nav-wrapper container"><a id="logo-container" href="#" class="brand-logo">Portal XX</a>
       <ul class="right hide-on-med-and-down">
         <li><a href='index.html'>Página Inicial</a></li>
-        <li><a href='educacao.html'>Formação</a></li>
+        <li class="active"><a href='educacao.html'>Formação</a></li>
         <li><a href='ocupacao.html'>Ocupação</a></li>
         <li><a href='personificacao.html'>Personificação</a></li>
         <li><a href='beneficios.html'>Beneficios</a></li>
       </ul>
 
       <ul id="nav-mobile" class="side-nav">
-        <li><a href='index.html'>Página Inicial</a></li>
-        <li><a href='educacao.html'>Formação</a></li>
+        <li><a href='index.html'>Página InSicial</a></li>
+        <li class="active"><a href='educacao.html'>Formação</a></li>
         <li><a href='ocupacao.html'>Ocupação</a></li>
         <li><a href='personificacao.html'>Personificação</a></li>
         <li><a href='beneficios.html'>Beneficios</a></li>
       </ul>
       <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
     </div>
+
+     <div class="nav-content">
+      <ul class="tabs deep-purple lighten-3" id="nav-tabs">
+
+        <li class="tab internal-tabs"><a class="active" href="#gerais">Índices Gerais</a></li>
+        <li class="tab internal-tabs"><a href="#cursos">Principais Cursos</a></li>
+      </ul>
+    </div>
+
   </nav>
 
 
-  <div class="section no-pad-bot" id="index-banner">
+ <!--  <div class="section no-pad-bot" id="index-banner">
     <div class="container">
       <br><br>
       <h1 class="header center lighten-2 deep-purple-text">Dados de Formação</h1>
     </div>
-  </div>
+  </div> -->
 
-
-  
-      
-  <div class="container">
+  <br><br>
+  <div class="container" id="gerais">
     <div class="section">
-      
       <div id='matriculados' style=" height: 400px;"></div> 
       <table border="1" hidden summary="Tabela com o número de matrículados em cursos de computação por gênero entre 2001 e 2015">
 
@@ -109,8 +115,14 @@
       </table>
 
     </div>
-    <br><br>
+  </div>  
+
+  <div class="container" id="cursos" style="height: 600px; margin: auto;">
+    <div class="section">
+      <div id='cursos_graduacao' style=" height: 550px; float:left;"></div>
+    </div>
   </div>
+  
 
   <footer class="page-footer deep-purple lighten-2">
     <div class="container">
@@ -147,7 +159,8 @@
   <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
   <script src="js/materialize.js"></script>
   <script src="js/init.js"></script>
-  <script src="js/educacao.js"></script>
+  <script src="js/educacao/educacao.js"></script>
+  <script src="js/educacao/cursos_graduacao.js"></script>
 
 
   <style type="text/css">
