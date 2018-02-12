@@ -65,7 +65,7 @@ zingchart.render({
                     shadow: false,
                     borderRadius: 4
                 }, {
-                    rule: "%v == 447",
+                    rule: "%v == 247",
                     text: "%v pessoas não sabem ou não identificam diferenças salariais",
                     shadow: false,
                     borderRadius: 4

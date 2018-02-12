@@ -61,12 +61,12 @@ zingchart.render({
                 fontColor: "white",
                 rules: [{
                     rule: "%v == 244",
-                    text: "%v pessoas identificam diferenças salariais",
+                    text: "%v pessoas acreditem maior sucesso com diversidade",
                     shadow: false,
                     borderRadius: 4
                 }, {
                     rule: "%i == 156",
-                    text: "%v pessoas não sabem ou não identificam diferenças salariais",
+                    text: "%v pessoas não acreditam que diversidade influencia em sucesso",
                     shadow: false,
                     borderRadius: 4
                 }]
