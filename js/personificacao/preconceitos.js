@@ -17,7 +17,7 @@ zingchart.MODULESDIR = "https://cdn.zingchart.com/modules/";
                             "y":"5%",
                             "background-color":"none",
                             "font-size":"20px",
-                            "font-color":"#000000"
+                            "font-color":"#808080"
                         },
                         "plotarea":{
                             "margin":"auto auto auto auto"

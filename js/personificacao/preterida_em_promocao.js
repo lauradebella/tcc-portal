@@ -6,7 +6,7 @@ zingchart.render({
                             "text":"Índice de discriminação<br> em promoções",
                             "background-color":"none",
                             "font-size":"20px",
-                            "font-color":"#000000"
+                            "font-color":"#808080"
                         },
         labels : [
           {

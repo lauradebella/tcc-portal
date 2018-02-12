@@ -6,7 +6,7 @@ zingchart.render({
                             "text":"Empresas com políticas<br> de igualdade de gênero",
                             "background-color":"none",
                             "font-size":"20px",
-                            "font-color":"#000000"
+                            "font-color":"#808080"
                         },
         labels : [
           {

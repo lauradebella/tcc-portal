@@ -6,7 +6,7 @@ zingchart.render({
                             "text":"Diferenças salariais <br>entre gêneros",
                             "background-color":"none",
                             "font-size":"20px",
-                            "font-color":"#000000"
+                            "font-color":"#808080"
                         },
         labels : [
           {

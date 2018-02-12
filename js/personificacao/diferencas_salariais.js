@@ -6,7 +6,7 @@ zingchart.render({
                             "text":"Pessoas que identificam diferenças<br> salariais entre homens e mulheres",
                             "background-color":"none",
                             "font-size":"20px",
-                            "font-color":"#000000"
+                            "font-color":"#808080"
                         },
         labels : [
           {

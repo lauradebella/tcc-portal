@@ -28,7 +28,9 @@ var myConfig = {
     text: 'Satisfação das mulheres com suas profissões',
     backgroundColor: "white",
     offsetX: 10,
-    fontSize: "20px"
+    fontSize: "20px",
+    
+                            "font-color":"#808080"
   },
   plotarea: {
     margin: "60px auto auto auto"  

@@ -18,7 +18,7 @@
                             "y":"1%",
                             "background-color":"none",
                             "font-size":"20px",
-                            "font-color":"#000000"
+                            "font-color":"#808080"
                         }, 
               "legend": {
                   "layout": "x3",

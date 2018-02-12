@@ -6,7 +6,7 @@ zingchart.render({
                             "text":"Pessoas que ja presenciaram discriminação<br> contra mulheres na computação",
                             "background-color":"none",
                             "font-size":"20px",
-                            "font-color":"#000000"
+                            "font-color":"#808080"
                         },
         labels : [
           {

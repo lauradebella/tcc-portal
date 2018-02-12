@@ -6,7 +6,7 @@ zingchart.render({
                             "text":"Pessoas acreditam que times<br>  com maior diversidade tem mais sucesso",
                             "background-color":"none",
                             "font-size":"20px",
-                            "font-color":"#000000"
+                            "font-color":"#808080"
                         },
         labels : [
           {

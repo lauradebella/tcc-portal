@@ -6,7 +6,7 @@ zingchart.render({
                             "text":"Mulheres cuja função não corresponde <br>àquela descrita na carteira de trabalho",
                             "background-color":"none",
                             "font-size":"20px",
-                            "font-color":"#000000"
+                            "font-color":"#808080"
                         },
         labels : [
           {

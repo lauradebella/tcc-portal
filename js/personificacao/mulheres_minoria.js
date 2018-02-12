@@ -6,7 +6,7 @@ zingchart.render({
                             "text":"Número de empresas em que <br>as mulheres ainda são minoria",
                             "background-color":"none",
                             "font-size":"20px",
-                            "font-color":"#000000"
+                            "font-color":"#808080"
                         },
         labels : [
           {
