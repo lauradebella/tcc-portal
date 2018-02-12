@@ -23,7 +23,7 @@ zingchart.MODULESDIR = "https://cdn.zingchart.com/modules/";
                             "margin":"auto auto auto auto"
                         },
                         "options":{
-                            "max-items":55,
+                            "max-items":45,
                             "font-family":"Arial",
                             "rotate":true,
                             "min-length":4,

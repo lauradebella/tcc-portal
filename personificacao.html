@@ -39,7 +39,7 @@
 
         <li class="tab internal-tabs"><a class="active" href="#basicos">Dados Básicos</a></li>
         <li class="tab internal-tabs"><a href="#discriminacoes">Discriminações</a></li>
-        <li class="tab internal-tabs"><a href="#empresas">Empresas</a></li>
+        <li class="tab internal-tabs"><a href="#empresas">Perfil das Empresas</a></li>
         <li class="tab internal-tabs"><a href="#visao_externa">Análise Externa</a></li>
         <li class="tab internal-tabs"><a href="#auto_analise">Auto-análise</a></li>
       </ul>
@@ -188,10 +188,8 @@
     </div>
   </div>  
 
-  <div class="container" id="discriminacoes" style="height: 1000px; margin: auto;">
+  <div class="container" id="discriminacoes" style="height: 1600px; margin: auto;">
     <div class="section">
-      
-
       <div style="width:850px; margin: auto;">
         <div id='preconceitos' style=" height: 450px;"></div>  
         <br>
@@ -239,6 +237,54 @@
             <th>mulheres nunca se sentiram preteridas em promoções por serem mulheres</th>
             <td>152</td>
             <td>62%</td>
+          </tr>
+        </table>
+
+
+        <h5>***beneficios</h5>
+        <div id='diferencas_salariais' style=" height: 500px; float:left;"></div>
+        <table border="1" hidden summary="Tabela com o número de Pessoas que identificam diferenças salariais entre homens e mulheres">
+          <caption>
+            Pessoas que identificam diferenças salariais entre homens e mulheres
+          </caption>
+
+          <tr>
+            <td></td>
+            <th>Número de Pessoas</th>
+            <th>Percentual</th>
+          </tr>
+          <tr>
+            <th>pessoas que identificam diferenças salariais</th>
+            <td>114</td>
+            <td>31%</td>
+          </tr>
+          <tr>
+            <th>pessoas que não identificam diferenças salariais</th>
+            <td>247</td>
+            <td>69%</td>
+          </tr>
+        </table>
+
+        <div id='presenciaram_preconceito' style=" height: 500px;  "></div>
+        <table border="1" hidden summary="Tabela com o número de Pessoas que ja presenciaram discriminação contra mulheres na computação">
+          <caption>
+            Pessoas que ja presenciaram discriminação contra mulheres na computação
+          </caption>
+
+          <tr>
+            <td></td>
+            <th>Número de Pessoas</th>
+            <th>Percentual</th>
+          </tr>
+          <tr>
+            <th>pessoas que já presenciaram algum tipo de preconceito contra mulheres na computação</th>
+            <td>290</td>
+            <td>71%</td>
+          </tr>
+          <tr>
+            <th>pessoas que nunca presenciaram algum tipo de preconceito contra mulheres na computação</th>
+            <td>114</td>
+            <td>29%</td>
           </tr>
         </table>
 
@@ -296,6 +342,29 @@
             <th>empresas com minoria feminina</th>
             <td>44</td>
             <td>19%</td>
+          </tr>
+        </table>
+
+        <div id='empresas_com_politica_genero' style=" height: 500px; width: 500px; margin: auto"></div>
+        <table border="1" hidden summary="Tabela com o número de Empresas com políticas de igualdade de gênero">
+          <caption>
+            Empresas com políticas de igualdade de gênero
+          </caption>
+
+          <tr>
+            <td></td>
+            <th>Número de Empresas</th>
+            <th>Percentual</th>
+          </tr>
+          <tr>
+            <th>empresas que tem preocupação em contratar diversidade de gênero</th>
+            <td>69</td>
+            <td>19%</td>
+          </tr>
+          <tr>
+            <th>empresas que não tem preocupação em contratar diversidade de gênero</th>
+            <td>286</td>
+            <td>81%</td>
           </tr>
         </table>
       </div>
@@ -400,6 +469,9 @@
   <script src="js/personificacao/satisfacao_com_profissao.js"></script>
   <script src="js/personificacao/carteira_de_trabalho.js"></script>
   <script src="js/personificacao/mulheres_minoria.js"></script>
+  <script src="js/personificacao/presenciaram_preconceito.js"></script>
+  <script src="js/personificacao/diferencas_salariais.js"></script>
+  <script src="js/personificacao/empresas_com_politica_genero.js"></script>
 
   <style type="text/css">
           #matriculados {
