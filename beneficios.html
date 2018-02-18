@@ -15,13 +15,13 @@
 
 
  <nav class="deep-purple lighten-2 nav-extended" role="navigation">
-    <div class="nav-wrapper container"><a id="logo-container" href="#" class="brand-logo">Portal XX</a>
+    <div class="nav-wrapper container"><a id="logo-container" href="index.html" class="brand-logo">Portal XX</a>
       <ul class="right hide-on-med-and-down menu-principal">
         <li><a href='index.html'>Página Inicial</a></li>
         <li><a href='educacao.html'>Formação</a></li>
         <li><a href='ocupacao.html'>Atuação</a></li>
         <li><a href='personificacao.html'>Personificação</a></li>
-        <li class="active"><a href='beneficios.html'>Beneficios da Diversidade</a></li>
+        <li class="active"><a href='beneficios.html'>Reflexos da Diversidade</a></li>
       </ul>
 
       <ul id="nav-mobile" class="side-nav">
@@ -29,7 +29,7 @@
         <li class="active"><a href='educacao.html'>Formação</a></li>
         <li><a href='ocupacao.html'>Atuação</a></li>
         <li><a href='personificacao.html'>Personificação</a></li>
-        <li class="active"><a href='beneficios.html'>Beneficios da Diversidade</a></li>
+        <li class="active"><a href='beneficios.html'>Reflexos da Diversidade</a></li>
       </ul>
       <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
     </div>
@@ -37,8 +37,9 @@
      <div class="nav-content">
       <ul class="tabs deep-purple lighten-3" id="nav-tabs">
 
-        <li class="tab internal-tabs"><a class="active" href="#sucesso">Índice de sucesso</a></li>
-        <li class="tab internal-tabs"><a href="#beneficios_e_desvantagens">Benefícios e Desvantagens</a></li>
+        <li class="tab internal-tabs"><a class="active" href="#sucesso">Sucesso dos Times</a></li>
+        <li class="tab internal-tabs"><a href="#beneficios_e_desvantagens">Benefícios & Desvantagens</a>
+        <li class="tab internal-tabs"><a href="#discriminacoes">Discriminações</a></li></li>
       </ul>
     </div>
 
@@ -93,6 +94,112 @@
       </div>
     </div>
   </div>
+
+
+  <div class="container" id="discriminacoes" style="height: 1600px; margin: auto;">
+    <div class="section">
+      <div style="width:850px; margin: auto;">
+
+        <div id='preconceitos' style=" height: 450px;"></div>  
+        <br>
+        <div id='diferenca_salarial' style=" height: 450px; float:left;"></div>
+        <table border="1" hidden summary="Tabela com as diferenças salariais entre gêneros">
+
+          <caption>
+            Diferenças salariais entre gêneros
+          </caption>
+
+          <tr>
+            <td></td>
+            <th>Número de Mulheres</th>
+            <th>Percentual</th>
+          </tr>
+          <tr>
+            <th>mulheres que identificam diferenças salariais</th>
+            <td>50</td>
+            <td>40%</td>
+          </tr>
+          <tr>
+            <th>mulheres que não identificam diferenças salariais</th>
+            <td>75</td>
+            <td>60%</td>
+          </tr>
+        </table>
+
+        <div id='preterida_em_promocao' style=" width: '50%'"></div>
+        <table border="1" hidden summary="Tabela com o Índice de discriminação em promoções">
+          <caption>
+            Índice de discriminação em promoções
+          </caption>
+
+          <tr>
+            <td></td>
+            <th>Número de Mulheres</th>
+            <th>Percentual</th>
+          </tr>
+          <tr>
+            <th>mulheres já se sentiram preteridas em promoções por serem mulheres</th>
+            <td>72</td>
+            <td>38%</td>
+          </tr>
+          <tr>
+            <th>mulheres nunca se sentiram preteridas em promoções por serem mulheres</th>
+            <td>152</td>
+            <td>62%</td>
+          </tr>
+        </table>
+
+
+        <h5>***beneficios</h5>
+        <div id='diferencas_salariais' style=" height: 500px; float:left;"></div>
+        <table border="1" hidden summary="Tabela com o número de Pessoas que identificam diferenças salariais entre homens e mulheres">
+          <caption>
+            Pessoas que identificam diferenças salariais entre homens e mulheres
+          </caption>
+
+          <tr>
+            <td></td>
+            <th>Número de Pessoas</th>
+            <th>Percentual</th>
+          </tr>
+          <tr>
+            <th>pessoas que identificam diferenças salariais</th>
+            <td>114</td>
+            <td>31%</td>
+          </tr>
+          <tr>
+            <th>pessoas que não identificam diferenças salariais</th>
+            <td>247</td>
+            <td>69%</td>
+          </tr>
+        </table>
+
+        <div id='presenciaram_preconceito' style=" height: 500px;  "></div>
+        <table border="1" hidden summary="Tabela com o número de Pessoas que ja presenciaram discriminação contra mulheres na computação">
+          <caption>
+            Pessoas que ja presenciaram discriminação contra mulheres na computação
+          </caption>
+
+          <tr>
+            <td></td>
+            <th>Número de Pessoas</th>
+            <th>Percentual</th>
+          </tr>
+          <tr>
+            <th>pessoas que já presenciaram algum tipo de preconceito contra mulheres na computação</th>
+            <td>290</td>
+            <td>71%</td>
+          </tr>
+          <tr>
+            <th>pessoas que nunca presenciaram algum tipo de preconceito contra mulheres na computação</th>
+            <td>114</td>
+            <td>29%</td>
+          </tr>
+        </table>
+
+      </div>
+    </div>
+  </div>
       
 
 
@@ -137,6 +244,13 @@
   <script src="js/beneficios/beneficios_desvantagens.js"></script>
   
   <script src="js/nav-content-script.js"></script>
+
+
+  <script src="js/personificacao/preconceitos.js"></script>
+  <script src="js/personificacao/diferenca_salarial.js"></script>
+  <script src="js/personificacao/preterida_em_promocao.js"></script>
+  <script src="js/personificacao/diferencas_salariais.js"></script>
+  <script src="js/personificacao/presenciaram_preconceito.js"></script>
 
 
   <style type="text/css">
