@@ -10,6 +10,11 @@
                 },
                 cursor: 'hand'
               },
+              
+              "source": {
+                "text": "Fonte: RAIS",
+                "x": "-90%"
+              },
               "legend": {
                   "layout": "x3",
                   "y": "9%",

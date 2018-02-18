@@ -49,6 +49,10 @@ zingchart.MODULESDIR = "https://cdn.zingchart.com/modules/";
                             "font-size":"20px",
                             "font-color":"#000000"
                         },
+                        "source": {
+                            "text": "Fonte: questionário de benefícios da diversidade",
+                            "x": "-130%"
+                          },
                         "plotarea":{
                             "margin":"auto auto auto auto"
                         },

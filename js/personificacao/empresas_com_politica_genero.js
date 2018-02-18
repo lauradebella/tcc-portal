@@ -1,5 +1,6 @@
 zingchart.render({
     id: 'empresas_com_politica_genero',
+
     data: {
         type: "pie",
         "title":{
@@ -8,6 +9,10 @@ zingchart.render({
                             "font-size":"20px",
                             "font-color":"#000000"
                         },
+        "source": {
+            "text": "Fonte: questionário de benefícios",
+            "x": "-50%"
+          },
         labels : [
           {
             text : "das empresas tem <br>preocupação em contratar<br> diversidade de gênero",

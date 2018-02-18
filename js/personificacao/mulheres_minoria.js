@@ -8,6 +8,10 @@ zingchart.render({
                             "font-size":"20px",
                             "font-color":"#000000"
                         },
+        "source": {
+            "text": "Fonte: questionário de benefícios",
+            "x": "-50%"
+          },
         labels : [
           {
             text : "das empresas de <br>computação as mulheres<br> ainda são minoria",

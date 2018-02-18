@@ -7,7 +7,11 @@ zingchart.render({
                             "background-color":"none",
                             "font-size":"20px",
                             "font-color":"#000000"
-                        },
+                        }, 
+        "source": {
+            "text": "Fonte: questionário de benefícios da diversidade",
+            "x": "-40%"
+          },
         labels : [
           {
             text : "das pessoas acreditam <br>que os times com maior<br> diversidade de gênero<br>tem mais sucesso",

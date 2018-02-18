@@ -13,6 +13,11 @@
                   }
                 }, 
              },
+
+              "source": {
+                "text": "Fonte: questionário de personificação",
+                "x": "-50%"
+              },
               "title":{
                             "text":"Transições entre as áreas de <br>atuação das mulheres na computação",
                             "y":"1%",

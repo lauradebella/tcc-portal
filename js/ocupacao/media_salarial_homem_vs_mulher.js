@@ -13,6 +13,10 @@ var myConfig = {
                 "y": "15px",
                 "x": "15px"
             },
+              "source": {
+                "text": "Fonte: RAIS",
+                "x": "-80%"
+              },
             "tooltip": {
                 "text": "R$%v "
             },

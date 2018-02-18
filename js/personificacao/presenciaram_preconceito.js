@@ -8,6 +8,10 @@ zingchart.render({
                             "font-size":"20px",
                             "font-color":"#000000"
                         },
+                        "source": {
+            "text": "Fonte: questionário de benefícios da diversidade",
+            "x": "-40%"
+          },
         labels : [
           {
             text : "das pessoas já <br>presenciaram algum tipo de <br>preconceito contra <br>mulheres na computação",

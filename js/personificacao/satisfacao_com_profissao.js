@@ -30,6 +30,10 @@ var myConfig = {
     offsetX: 10,
     fontSize: "20px"
   },
+   "source": {
+            "text": "Fonte: questionário de personificação",
+            "x": "-70%"
+          },
   plotarea: {
     margin: "60px auto auto auto"  
   },

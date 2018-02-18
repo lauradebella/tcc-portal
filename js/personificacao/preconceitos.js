@@ -19,6 +19,10 @@ zingchart.MODULESDIR = "https://cdn.zingchart.com/modules/";
                             "font-size":"20px",
                             "font-color":"#000000"
                         },
+                        "source": {
+                            "text": "Fonte: questionário de personificação",
+                            "x": "-70%"
+                          },
                         "plotarea":{
                             "margin":"auto auto auto auto"
                         },

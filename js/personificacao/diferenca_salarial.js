@@ -8,6 +8,10 @@ zingchart.render({
                             "font-size":"20px",
                             "font-color":"#000000"
                         },
+                        "source": {
+            "text": "Fonte: questionário de benefícios da diversidade",
+            "x": "-40%"
+          },
         labels : [
           {
             text : "das mulheres ainda <br>identificam <br>diferenças salariais<br> entre gêneros",

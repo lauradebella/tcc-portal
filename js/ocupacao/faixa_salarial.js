@@ -19,6 +19,10 @@ var myConfig = {
     borderColor: "#333",
     borderWidth: 1
   },
+              "source": {
+                "text": "Fonte: questionário de personificação",
+                "x": "-50%"
+              },
  
   legend: {
     offsetY: 80,

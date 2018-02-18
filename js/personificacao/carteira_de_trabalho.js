@@ -8,6 +8,11 @@ zingchart.render({
                             "font-size":"20px",
                             "font-color":"#000000"
                         },
+
+          "source": {
+            "text": "Fonte: questionário de personificação",
+            "x": "-50%"
+          },
         labels : [
           {
             text : "das mulheres atuam <br>em funções diferentes <br>das descritas<br> na carteira de trabalho",
@@ -98,6 +103,6 @@ zingchart.render({
         }]
  
     },
-    height : '500',
+    height : 500,
     width : "425"
 });

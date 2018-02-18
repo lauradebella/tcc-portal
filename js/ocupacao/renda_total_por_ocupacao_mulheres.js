@@ -30,6 +30,11 @@ var myConfig = {
     offsetX: 10,
     fontSize: "20px"
   },
+  
+    "source": {
+      "text": "Fonte: RAIS",
+      "x": "-90%"
+    },
   plotarea: {
     margin: "70px 0 0 0"  
   },

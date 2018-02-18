@@ -18,6 +18,10 @@
                             "font-size":"16px",
                             "font-color":"#000000"
                         },
+                        "source": {
+                                  "text": "Fonte: questionário de personificação",
+                                  "x": "-50%"
+                                },
                         "subtitle":{
                             "text":"Na visão dos outros",
                             "y":"14%",

@@ -23,6 +23,10 @@ var myConfig = {
       sequence: 1
     }
   },
+  "source": {
+            "text": "Fonte: questionário de personificação",
+            "x": "-70%"
+          },
   title: {
     fontColor: "black",
     text: 'Idade das mulheres que responderam o questionário',

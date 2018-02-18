@@ -20,6 +20,10 @@ var myConfig = {
     borderWidth: 1
   },
  
+  "source": {
+    "text": "Fonte: questionário de benefícios da diversidade",
+    "x": "-70%"
+  },
   legend: {
     offsetY: 80,
     offsetX: 0,
@@ -55,11 +59,6 @@ var myConfig = {
  	    method: 0,
  	    sequence: 1
  	  }
-  },
-  source: {
-    text: "Source: sec.gov",
-    fontColor: "#666",
-    fontFamily: 'Roboto'
   },
  	scaleX: {
  	  labels: ['Percentual <br>de Mulheres'],

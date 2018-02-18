@@ -10,6 +10,11 @@
                 },
                 cursor: 'hand'
               },
+
+              "source": {
+                "text": "Fonte: RAIS",
+                "x": "-90%"
+              },
               crosshairX:{},
               scaleX: {
                 markers: [],
