@@ -147,5 +147,5 @@
             id : 'areas_de_atuacao', 
             data : myConfig, 
             height: '100%', 
-            width: '500px'
+            width: '100%'
           });

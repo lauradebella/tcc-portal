@@ -101,7 +101,7 @@ var myConfig = {
 		  values: [67],
 		  backgroundColor: "#f5f5f5",
 		  rules: [
-		    { rule: '%i==0', backgroundColor: '#fce4ec'},
+		    { rule: '%i==0', backgroundColor: '#ede7f6'},
 		  ]
 		},
  
@@ -110,7 +110,7 @@ var myConfig = {
 		  values: [106],
 		  backgroundColor: "#bdbdbd",
 		  rules: [
-		    { rule: '%i==0', backgroundColor: '#f8bbd0'},
+		    { rule: '%i==0', backgroundColor: '#d1c4e9'},
 		  ]
 		},
 		{
@@ -118,7 +118,7 @@ var myConfig = {
 		  values: [84],
 		  backgroundColor: "#9e9e9e",
 		  rules: [
-		    { rule: '%i==0', backgroundColor: '#f48fb1'},
+		    { rule: '%i==0', backgroundColor: '#b39ddb'},
 		  ]
 		},
     {
@@ -126,7 +126,7 @@ var myConfig = {
       values: [26],
       backgroundColor: "#757575",
       rules: [
-        { rule: '%i==0', backgroundColor: '#f06292'},
+        { rule: '%i==0', backgroundColor: '#9575cd'},
       ]
     },
      {
@@ -134,7 +134,7 @@ var myConfig = {
       values: [6],
       backgroundColor: "#616161",
       rules: [
-        { rule: '%i==0', backgroundColor: '#ec407a'},
+        { rule: '%i==0', backgroundColor: '#7e57c2'},
       ]
     },
      {
@@ -142,7 +142,7 @@ var myConfig = {
       values: [48],
       backgroundColor: "#424242",
       rules: [
-        { rule: '%i==0', backgroundColor: '#e91e63'},
+        { rule: '%i==0', backgroundColor: '#673ab7'},
       ]
     },
     {
@@ -150,7 +150,7 @@ var myConfig = {
       values: [68],
       backgroundColor: "#424242",
       rules: [
-        { rule: '%i==0', backgroundColor: '#d81b60'},
+        { rule: '%i==0', backgroundColor: '#5e35b1'},
       ]
     },
 	]

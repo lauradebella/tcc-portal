@@ -35,3 +35,11 @@
 	display: flex;
     justify-content: center;
 }
+
+.internal-tabs a{
+	text-transform: capitalize;
+}
+
+.menu-principal a {
+	text-transform: uppercase;
+}
