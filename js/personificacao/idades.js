@@ -14,7 +14,7 @@ var myConfig = {
       fontSize: '18',
       fontFamily: "Open Sans",
       padding: "5 5",
-      text: "%t<br>R$%v"
+      text: "%t<br>%v mulheres"
     },
     animation:{
       effect: 2, 
