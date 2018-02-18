@@ -7,7 +7,7 @@ var myConfig = {
                             "y":"5%",
                             "background-color":"none",
                             "font-size":"20px",
-                            "font-color":"#000000"
+                            "font-color":"#000000",
                         },
   tooltip:{
     padding: 10,
@@ -22,13 +22,13 @@ var myConfig = {
  
   legend: {
     offsetY: 80,
-    offsetX: 40,
+    offsetX: 20,
     padding: 10,
     backgroundColor: "transparent",
     borderWidth: "0px",
     highlightPlot: true,
     item: {
-      fontSize: 18,
+      fontSize: 16,
       fontColor: "#666",
       fontFamily: "Roboto",
       
@@ -57,10 +57,13 @@ var myConfig = {
  	  }
   },
  	scaleX: {
- 	  labels: ['Faixa salarial'],
+ 	  label: {
+      text: 'Faixa salarial',
+      fontSize: '15px'
+    },
  	  item: {
  	    fontFamily: "Roboto",
- 	    fontSize: 14
+ 	    fontSize: 10
  	  },
  	  lineColor: "#DDD",
  	  tick:{
@@ -154,6 +157,6 @@ var myConfig = {
 zingchart.render({ 
 	id : 'faixa_salarial', 
 	data : myConfig, 
-	height: 500, 
-	width: 700 
+	height: 450, 
+	width: 480 
 });
