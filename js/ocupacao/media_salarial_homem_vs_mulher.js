@@ -5,7 +5,7 @@ var myConfig = {
             "type": "bar",
             "background-color": "white",
             "title": {
-                "text": "Comparação da média salarial entre homens e mulheres <br>que atuam em áreas da computação",
+                "text": "Comparação da média salarial entre gêneros <br>que atuam em áreas da computação",
                 "font-color": "black",
                 "backgroundColor": "none",
                 "font-size": "20px",

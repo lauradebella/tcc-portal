@@ -52,9 +52,10 @@
   <br>
 
   <div class="container" id="por_ocupacao">
-    <div class="section">
+    <div class="section" style=" height: 1400px;">
 
-      <div id='empregos_por_ocupação_ano' style=" height: 400px;"></div> 
+      <div id='empregos_por_ocupação_ano' style=" height: 400px;"></div>
+      <i class="material-icons tooltipped" data-delay="50" data-tooltip="Gráfico gerado a partir da informação de <br>número de empregos por ocupação entre 2003 e 2014<br> do gênero feminino. Dados disponibilizados pela <br>Relação Anual de Informações Sociais (RAIS)." data-position="top" data-html="true" style="float: right">info_outline</i> 
       <table border="1" hidden summary="Tabela com o Número de empregos por ocupação entre 2003 e 2014 do gênero feminino">
 
             <caption>
@@ -88,6 +89,7 @@
       </table> 
 
       <div id='empregos_ano' style=" height: 400px;"></div> 
+      <i class="material-icons tooltipped" data-delay="50" data-tooltip="Gráfico gerado a partir da informação de número de empregos<br>na computação por gênero entre 2003 e 2014. <br>Dados disponibilizados pela Relação Anual <br>de Informações Sociais (RAIS)." data-position="top" data-html="true" style="float: right">info_outline</i> 
       <table border="1" hidden summary="Tabela com o Número de empregos na computação por gênero entre 2003 e 2014">
 
               <caption>
@@ -113,7 +115,8 @@
               <tr><th>2014</th><td>439693</td><td>153531</td></tr>
       </table>
 
-      <div id='percentual_mulheres' style=" height: 600px;"></div>
+      <div id='percentual_mulheres' style=" height: 500px;"></div>
+      <i class="material-icons tooltipped" data-delay="50" data-tooltip="Para gerar essa visualização foi perguntado<br> às pessoas atuantes na computação o <br>percentual de mulheres na empresa que elas trabalham." data-position="top" data-html="true" style="float: right">info_outline</i>
       <table border="1" hidden summary="Tabela com o Percentual de mulheres nas empresas de computação">
         <caption>
          Percentual de mulheres nas empresas de computação
@@ -156,10 +159,10 @@
   </div>
 
   <div class="container" id="experiencia">
-    <div class="section">
+    <div class="section" style="height: 1200px">
 
-      <div style="margin: auto;">
         <div id='areas_de_atuacao' style=" height: 600px; width: 800px;" ></div>
+        <i class="material-icons tooltipped" data-delay="50" data-tooltip="Para gerar essa visualização foi perguntado<br> às mulheres atuantes na computação as áreas <br>que elas atuam atualmente e as áreas que elas ja atuaram." data-position="top" data-html="true" style="float: right">info_outline</i>
         <table border="1" hidden summary="Tabela com as Transições entre as áreas de atuação das mulheres na computação">
 
           <caption>
@@ -248,7 +251,9 @@
           </tr>
         </table>
 
-        <div id='tempo_experiencia' style=" height: 550px;"></div>
+      <div style="margin: auto; width: 850px">
+        <div id='tempo_experiencia' style=" height: 500px;"></div>
+        <i class="material-icons tooltipped" data-delay="50" data-tooltip="Para gerar essa visualização foi perguntado<br> às mulheres atuantes na computação o <br>tempo de experiência das mesmas na área." data-position="top" data-html="true" style="float: right">info_outline</i>
         <table border="1" hidden summary="Tabela com o Tempo de experiência das mulheres na área de computação">
 
             <caption>
@@ -286,8 +291,6 @@
         </table>
       </div>
     </div>
-     <h6 style="text-align: center;">*dados obtidos a partir do questionário de personificação</h6>
-     <br>
   </div>  
 
   <div class="container" id="remuneracao">
@@ -296,6 +299,7 @@
       <div style="margin: auto;">
 
         <div id='salarios_por_ocupação_ano' style=" height: 400px;"></div>
+        <i class="material-icons tooltipped" data-delay="50" data-tooltip="Gráfico gerado a partir da informação da <br>média salárial por ocupação entre 2003 e 2014 <br>no Brasil do gênero feminino. Dados disponibilizados pela <br>Relação Anual de Informações Sociais (RAIS)." data-position="top" data-html="true" style="float: right">info_outline</i> 
         <table border="1" hidden summary="Tabela com a Média salárial por ocupação entre 2003 e 2014 no Brasil do gênero feminino">
 
           <caption>
@@ -328,7 +332,8 @@
           <tr><th>2014</th> <td>9878.88</td><td>7426.79</td><td>9374.96</td><td>4641.71</td><td>4801.43</td><td>3832.11</td><td>5821.26</td><td>1979.21</td><td>2019.39</td></tr>
         </table>
 
-        <div id='renda_total_por_ocupacao_mulheres' style=" height: 550px;"></div>
+        <div id='renda_total_por_ocupacao_mulheres' style=" height: 500px;"></div>
+        <i class="material-icons tooltipped" data-delay="50" data-tooltip="Gráfico gerado a partir da informação da <br>renda total gerada por mulheres em cada uma<br> das ocupações em 2014. Dados disponibilizados pela <br>Relação Anual de Informações Sociais (RAIS)." data-position="top" data-html="true" style="float: right">info_outline</i> 
         <table border="1" hidden summary="Tabela com a Renda total gerada por mulheres em cada uma das ocupações em 2014">
 
           <caption>
@@ -349,34 +354,39 @@
           </tr>
           <tr><th>2014</th> <td>4771503.76</td><td>5726061.26</td><td>73049692.58</td><td>82109322.68</td><td>17977374.31</td><td>36083234.4</td><td>358246646.6</td><td>39182593,33</td><td>66149172.99</td></tr>
         </table>
+        <br>
 
-        <div id='media_salarial_homem_vs_mulher' style=" height: 500px; float: left "></div>
-        <table border="1" hidden summary="Tabela com a comparação da média salarial entre homens e mulheres que atuam em áreas da computação">
+        <div style=" height: 500px; float: left ">
+          <div id='media_salarial_homem_vs_mulher' ></div>
+          <i class="material-icons tooltipped" data-delay="50" data-tooltip="Gráfico gerado a partir da informação da <br>média salarial entre homens e mulheres que atuam<br> em áreas da computação. Dados disponibilizados pela <br>Relação Anual de Informações Sociais (RAIS)." data-position="top" data-html="true" style="float: right">info_outline</i> 
+          <table border="1" hidden summary="Tabela com a comparação da média salarial entre homens e mulheres que atuam em áreas da computação">
 
-              <caption>
-                Comparação da média salarial entre homens e mulheresque atuam em áreas da computação
-              </caption>
+                <caption>
+                  Comparação da média salarial entre homens e mulheresque atuam em áreas da computação
+                </caption>
 
-              <tr>
-                <td></td>
-                <th>Gênero masculino</th>
-                <th>Gênero feminino</th>
-              </tr>
-              <tr><th>2003</th><td>2371.84</td><td>1618.19</td></tr>
-              <tr><th>2004</th><td>2550.57</td><td>1765.41</td></tr>
-              <tr><th>2005</th><td>2701.56</td><td>1922.17</td></tr>
-              <tr><th>2006</th><td>2874.13</td><td>2066.12</td></tr>
-              <tr><th>2007</th><td>2988.84</td><td>2190.99</td></tr>
-              <tr><th>2008</th><td>3234.38</td><td>2438.71</td></tr>
-              <tr><th>2009</th><td>3431.25</td><td>2757.72</td></tr>
-              <tr><th>2010</th><td>3566.36</td><td>2876.97</td></tr>
-              <tr><th>2011</th><td>4034.00</td><td>3442.75</td></tr>
-              <tr><th>2012</th><td>4394.01</td><td>3768.12</td></tr>
-              <tr><th>2013</th><td>4804.77</td><td>4173.93</td></tr>
-              <tr><th>2014</th><td>5119.70</td><td>4450.53</td></tr>
-        </table>
+                <tr>
+                  <td></td>
+                  <th>Gênero masculino</th>
+                  <th>Gênero feminino</th>
+                </tr>
+                <tr><th>2003</th><td>2371.84</td><td>1618.19</td></tr>
+                <tr><th>2004</th><td>2550.57</td><td>1765.41</td></tr>
+                <tr><th>2005</th><td>2701.56</td><td>1922.17</td></tr>
+                <tr><th>2006</th><td>2874.13</td><td>2066.12</td></tr>
+                <tr><th>2007</th><td>2988.84</td><td>2190.99</td></tr>
+                <tr><th>2008</th><td>3234.38</td><td>2438.71</td></tr>
+                <tr><th>2009</th><td>3431.25</td><td>2757.72</td></tr>
+                <tr><th>2010</th><td>3566.36</td><td>2876.97</td></tr>
+                <tr><th>2011</th><td>4034.00</td><td>3442.75</td></tr>
+                <tr><th>2012</th><td>4394.01</td><td>3768.12</td></tr>
+                <tr><th>2013</th><td>4804.77</td><td>4173.93</td></tr>
+                <tr><th>2014</th><td>5119.70</td><td>4450.53</td></tr>
+          </table>
+        </div>
 
         <div id='faixa_salarial' style=" height: 500px;"></div>
+        <i class="material-icons tooltipped" data-delay="50" data-tooltip="Gráfico gerado a partir da informação da <br>faixa salarial das mulheres na área de computação. Dados disponibilizados  <br>pela Relação Anual de Informações Sociais (RAIS)." data-position="top" data-html="true" style="float: right">info_outline</i> 
         <table border="1" hidden summary="Tabela com a Faixa salarial das Mulheres na área de computação">
             <caption>
               Faixa salarial das Mulheres 
@@ -423,33 +433,37 @@
   <div class="container" id="empresas">
     <div class="section">
         
-      <div style="width:850px; margin: auto;">
+      <div style="width:850px; height: 1100px; margin: auto;">
 
-        <div id='carteira_de_trabalho' style=" height: 500px; float:left; "></div>
-        <table border="1" hidden summary="Tabela com o número de Mulheres cuja função não corresponde àquela descrita na carteira de trabalho">
+        <div style=" height: 550px; float:left; ">
+          <div id='carteira_de_trabalho' ></div>
+          <i class="material-icons tooltipped" data-delay="50" data-tooltip="Para gerar essa visualização foi perguntado<br> às mulheres atuantes na computação se <br>a sua área de atuação correspondia<br>àquela descrita em sua carteira de trabalho." data-position="top" data-html="true" style="float: right">info_outline</i>
+          <table border="1" hidden summary="Tabela com o número de Mulheres cuja função não corresponde àquela descrita na carteira de trabalho">
 
-          <caption>
-            Número de Mulheres cuja função não corresponde àquela descrita na carteira de trabalho
-          </caption>
+            <caption>
+              Número de Mulheres cuja função não corresponde àquela descrita na carteira de trabalho
+            </caption>
 
-          <tr>
-            <td></td>
-            <th>Número de Mulheres</th>
-            <th>Percentual</th>
-          </tr>
-          <tr>
-            <th>mulheres que não atuam na função descrita em sua carteira de trabalho</th>
-            <td>50</td>
-            <td>21%</td>
-          </tr>
-          <tr>
-            <th>mulheres que  atuam na função descrita em sua carteira de trabalho</th>
-            <td>179</td>
-            <td>79%</td>
-          </tr>
-        </table>
-
+            <tr>
+              <td></td>
+              <th>Número de Mulheres</th>
+              <th>Percentual</th>
+            </tr>
+            <tr>
+              <th>mulheres que não atuam na função descrita em sua carteira de trabalho</th>
+              <td>50</td>
+              <td>21%</td>
+            </tr>
+            <tr>
+              <th>mulheres que  atuam na função descrita em sua carteira de trabalho</th>
+              <td>179</td>
+              <td>79%</td>
+            </tr>
+          </table>
+        </div>
+        
         <div id='mulheres_minoria' style=" width: '50%'"></div>
+        <i class="material-icons tooltipped" data-delay="50" data-tooltip="Para gerar essa visualização foi perguntado<br> às pessoas atuantes na computação se as mulheres<br> ainda são minoria nas empresas que elas trabalham." data-position="top" data-html="true" style="float: right">info_outline</i>
         <table border="1" hidden summary="Tabela com o Número de empresas em que as mulheres ainda são minoria">
 
           <caption>
@@ -474,6 +488,7 @@
         </table>
 
         <div id='empresas_com_politica_genero' style=" height: 500px; width: 500px; margin: auto"></div>
+        <i class="material-icons tooltipped" data-delay="50" data-tooltip="Para gerar essa visualização foi perguntado<br> às pessoas atuantes na computação se as empresas<br> que elas trabalham possuem políticas voltadas à diversidade de gênero." data-position="top" data-html="true" style="float: right">info_outline</i>
         <table border="1" hidden summary="Tabela com o número de Empresas com políticas de igualdade de gênero">
           <caption>
             Empresas com políticas de igualdade de gênero
