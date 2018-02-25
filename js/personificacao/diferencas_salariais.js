@@ -3,7 +3,7 @@ zingchart.render({
     data: {
         type: "pie",
         "title":{
-                            "text":"Pessoas que identificam diferenças<br> salariais entre homens e mulheres",
+                            "text":"Diferenças salariais entre <br>gêneros identificadas por todos",
                             "background-color":"none",
                             "font-size":"20px",
                             "font-color":"#000000"
