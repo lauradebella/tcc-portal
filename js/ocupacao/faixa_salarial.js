@@ -26,7 +26,7 @@ var myConfig = {
  
   legend: {
     offsetY: 80,
-    offsetX: 20,
+    offsetX: 0,
     padding: 10,
     backgroundColor: "transparent",
     borderWidth: "0px",
@@ -99,7 +99,7 @@ var myConfig = {
  	},
 	series : [
 	  {
-		  text: "Menos de R$1500",
+		  text: "Menos de <br>R$1500",
 		  values: [37],
 		  backgroundColor: "#f5f5f5",
 		  rules: [
@@ -108,7 +108,7 @@ var myConfig = {
 		},
  
 		{
-		  text: "De R$1500 até R$3000",
+		  text: "De R$1500 <br>até R$3000",
 		  values: [40],
 		  backgroundColor: "#bdbdbd",
 		  rules: [
@@ -116,7 +116,7 @@ var myConfig = {
 		  ]
 		},
 		{
-		  text: "Acima de R$3000 a R$4500",
+		  text: "Acima de R$3000<br> a R$4500",
 		  values: [42],
 		  backgroundColor: "#9e9e9e",
 		  rules: [
@@ -124,7 +124,7 @@ var myConfig = {
 		  ]
 		},
     {
-      text: "Acima de R$4500 a R$6000",
+      text: "Acima de R$4500<br> a R$6000",
       values: [35],
       backgroundColor: "#757575",
       rules: [
@@ -132,7 +132,7 @@ var myConfig = {
       ]
     },
      {
-      text: "Acima de R$6000 a R$8000",
+      text: "Acima de R$6000<br> a R$8000",
       values: [40],
       backgroundColor: "#616161",
       rules: [
@@ -140,7 +140,7 @@ var myConfig = {
       ]
     },
      {
-      text: "Acima de R$8000 a R$10000",
+      text: "Acima de R$8000<br> a R$10000",
       values: [18],
       backgroundColor: "#424242",
       rules: [
@@ -148,7 +148,7 @@ var myConfig = {
       ]
     },
     {
-      text: "Acima de R$10000",
+      text: "Acima de <br>R$10000",
       values: [17],
       backgroundColor: "#424242",
       rules: [
@@ -161,6 +161,6 @@ var myConfig = {
 zingchart.render({ 
 	id : 'faixa_salarial', 
 	data : myConfig, 
-	height: 450, 
-	width: 480 
+	height: 500, 
+	width: 380 
 });
