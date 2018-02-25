@@ -56,8 +56,12 @@
 	border-radius: 100px;
 }
 
-.data-home {
+.link-home {
 	color: #8F78C8;
+}
+
+.data-home {
+	color: black;
 }
 
 #circle:hover { 
