@@ -39,7 +39,6 @@
                   },
                   "border-width": 0,
                   "maxItems": 3,
-                  "toggle-action": "remove",
                   "pageOn": {
                       "backgroundColor": "#000",
                       "size": "10px",
