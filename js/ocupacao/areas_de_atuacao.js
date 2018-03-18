@@ -6,7 +6,7 @@ zingchart.MODULESDIR = "https://cdn.zingchart.com/modules/";
              "options":{  
                 "angle-padding":1,
                 "color-type":"palette",
-                "palette":["#e91e63", "#00bcd4", "#9575cd", "#009688", "#9c27b0", "#e91e63", "#3f51b5"],
+                "palette":["#e91e63", "#00bcd4", "#9575cd", "#009688", "#9c27b0", "#EE82EE", "#3f51b5"],
                 "style":{
 
                   "label":{
